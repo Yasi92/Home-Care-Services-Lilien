@@ -6,16 +6,25 @@
     border: 0;
 }
 
+.bg {
+    background-image: url("assets/images/main-image.png");
+    background-size: cover;
+    z-index: 9000;
+    width: 100%;
+
+
+}
+
 html {
     min-width: fit-content;
 }
 
-body{
+body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #EAE8ED;
+    /* background-color: #EAE8ED; */
 }
 
-.heading{
+.heading {
     color: #440E44;
     font-size: calc(1.2rem + 1vmin);
     letter-spacing: 3px;
@@ -24,15 +33,37 @@ body{
 
 }
 
-p{
+p {
     font-weight: 400;
     font-size: calc(1rem + 0.1vmin);
     line-height: 1.8;
-   
+
 }
 
-h4{
+h4 {
     font-size: calc(1.5rem + 0.5vmin);
+}
+
+a {
+    color: #1a1a16;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #1a1a16;
+}
+
+h3 {
+    font-size: calc(1.2rem + 0.5vw);
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    color: #1a1a16;
 }
 
 
@@ -55,7 +86,7 @@ h4{
     text-transform: uppercase;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    
+
 }
 
 .navbar-nav li .nav-link:hover {
@@ -63,25 +94,25 @@ h4{
     text-shadow: 0 1px 0px #440E44;
 }
 
-.navbar-nav li:not(:last-child){
-border-right: 1px solid #440E44;
+.navbar-nav li:not(:last-child) {
+    border-right: 1px solid #440E44;
 }
 
 .nav-link {
     color: #440E44;
 }
 
-.col-12{
+.col-12 {
     padding-left: 0;
     padding-right: 0;
 }
 
-.row{
+.row {
     margin-right: 0;
     margin-left: 0;
 }
 
-.team-box{
+.team-box {
     background-color: #CCE0D1;
     border: 1px solid #CCE0D1;
     border-radius: 1%;
@@ -93,19 +124,23 @@ border-right: 1px solid #440E44;
     position: relative;
 }
 
-.team-img{
+.team-img {
     padding-top: 3em;
     padding-bottom: 16px;
     position: relative;
-   
+
 }
 
-.team-btn{
-    background-color:#C79BD4;
+.team-btn {
+    background-color: #C79BD4;
     border: 1px solid #C79BD4;
     color: black;
     box-shadow: 0px 0px 6px #C79BD4;
     position: absolute;
     bottom: 16px;
-    
+
 }
+
+.btn-primary:hover {
+    background-color: #9F54B6;
+    border:none;}

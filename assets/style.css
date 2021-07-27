@@ -6,14 +6,7 @@
     border: 0;
 }
 
-.bg {
-    background-image: url("assets/images/main-image.png");
-    background-size: cover;
-    z-index: 9000;
-    width: 100%;
 
-
-}
 
 html {
     min-width: fit-content;
@@ -21,7 +14,7 @@ html {
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    /* background-color: #EAE8ED; */
+    background-color: #EAE8ED;
 }
 
 .heading {
@@ -144,3 +137,20 @@ h3 {
 .btn-primary:hover {
     background-color: #9F54B6;
     border:none;}
+
+    #map {
+        height: 23em;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      }
+
+      footer {
+        background-color: white;
+        border-top: 1px solid #440e4471;
+        box-shadow: 0px 0px 9px #440e4471;
+        margin-top: 5rem;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    

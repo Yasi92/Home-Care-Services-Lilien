@@ -119,7 +119,7 @@
 
             <section id="contact-address">
                 <div class="container-fluid">
-                    <div class="row px-5 justify-content-around align-items-center" id="contact-us">
+                    <div class="row px-5 py-4 justify-content-center align-items-center" id="contact-us">
                         <div class="col-5">
                             <h3>Contact information :</h3>
                             <div id="contact-links">
@@ -133,16 +133,22 @@
                                <h5> Podbielskistr .189<br> 30177 Hannover<br> Germany</h5>
                             </div>
                         </div>
-                        <div class="col-5">
-                            
+                        <div class="col-6">
+                            <div id="map"></div>
                         </div>
                     </div>
                 </div>
             </section>
 
+            <footer class="footer">
+                <div class="container text-center">
+                    <span>&copy; Copyright 2021 OUTPATIENT NURSING SERVICES LILIEN</span>
+                </div>
+            </footer>
 
 
-
+            <script src="assets/js/maps.js" type="text/javascipt"></script>
+           
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
                 integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
                 crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -155,6 +161,10 @@
                 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
                 crossorigin="anonymous">
             </script>
+           <script async
+           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1w0xY6kdeAYcY42KeBR3L2RDf4mAbS6g&callback=initMap">
+       </script>
+       <script src="assets/js/maps.js"></script>
 </body>
 
 </html>

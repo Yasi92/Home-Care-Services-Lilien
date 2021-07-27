@@ -1,0 +1,8 @@
+// gsap.from(".main-img", { duration: 5, ease: "circ.out", y: -500});
+
+window.onload = function() {
+    $(".main-img").hide().fadeIn(4000);
+
+
+    
+};

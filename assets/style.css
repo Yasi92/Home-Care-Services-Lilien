@@ -1,14 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Source+Sans+Pro:wght@300;400&display=swap');
 
-#title{
-    color: #440E44;
-    font-size: calc(0.8rem + 0.2vmin);
-    letter-spacing: 3px;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-/* .title-container{
-    
-} */
+html {
+    min-width: fit-content;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #EAE8ED;
+}
+
+.heading{
+    color: #440E44;
+    font-size: calc(1.2rem + 1vmin);
+    letter-spacing: 3px;
+    line-height: 1.7;
+    text-align: center;
+
+}
+
+p{
+    font-weight: 400;
+    font-size: calc(1rem + 0.1vmin);
+    line-height: 1.8;
+   
+}
 
 
 #navigation {
@@ -18,7 +39,7 @@
 
 .navbar-nav {
     list-style-type: none;
-    font-size: calc(0.8rem + 0.2vmin);
+    font-size: calc(0.8rem + 0.4vmin);
     letter-spacing: 3px;
     list-style-type: none;
     font-family: 'Nunito Sans', sans-serif;
@@ -46,6 +67,28 @@ border-right: 1px solid #440E44;
     color: #440E44;
 }
 
-.capital {
-    font-size: 19px;
+.col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.team-box{
+    background-color: aqua;
+    width: 65vw;
+    height: 90vh;
+}
+
+.team-content {
+    padding-left: 3em;
+    padding-top: 2em;
+}
+
+.second-home-img{
+    padding-right: 3em;
+    padding-top: 2em;
 }

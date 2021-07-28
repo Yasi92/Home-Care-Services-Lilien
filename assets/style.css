@@ -22,6 +22,7 @@ body {
     line-height: 1.7;
     text-align: center;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 
@@ -38,6 +39,7 @@ p {
 
 h4 {
     font-size: calc(1rem + 0.5vmin);
+    margin-bottom: 0;
 }
 
 
@@ -58,8 +60,7 @@ h3 {
     font-size: calc(1.2rem + 0.5vw);
     font-weight: 400;
     letter-spacing: 1px;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    /* padding-bottom: 3rem; */
     text-transform: capitalize;
     font-family: 'Lato', sans-serif;
     color: #1a1a16;
@@ -106,12 +107,24 @@ h3 {
 }
 
 
-.col-12 {
+
+
+.col-10 {
     padding-left: 0;
     padding-right: 0;
 }
 
-.col-8 {
+.col-lg-9 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.col-lg-5 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.col-md-5 {
     padding-left: 0;
     padding-right: 0;
 }
@@ -130,6 +143,14 @@ h3 {
     box-shadow: 1px 1px 8px #BFD9C6;
 }
 
+.contact-info {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    ;
+    border-radius: 1%;
+    box-shadow: 1px 1px 8px #ffffff;
+}
+
 .team-content {
     position: relative;
 }
@@ -138,22 +159,33 @@ h3 {
 
 .btn-primary {
     background-color: #9F54B6;
-    border:none;
+    border: none;
     color: #FAFBEF;
     box-shadow: 0px 0px 6px #9F54B6;
-   
+
 }
 
-.btn-team{
-   position: absolute;
-   bottom: 0;
-    
+.btn:focus,
+.btn:hover {
+    background-color: #C79BD4;
+    border: none;
+    outline: none;
+
 }
 
-.btn-primary:hover {
+.btn-team {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
     background-color: #C79BD4;
     color: black;
     border: none;
+    outline: none;
+
 }
 
 
@@ -169,18 +201,91 @@ footer {
     box-shadow: 0px 0px 9px #440e4471;
     text-align: center;
     padding: 1rem 0;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
+
 }
+
+#contact-links {
+    font-size: calc(.9rem + 0.4vw);
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.card-group>.card {
+    margin-bottom: 0;
+}
+
+.team-img {
+    padding-bottom: 1.5rem;
+}
+
+
 
 /* //---------------------------- */
 @media screen and (max-width: 991px) {
-.navbar-nav li:not(:last-child) {
-    border-bottom: 1.5px dotted black;
-    border-right: none;
+    .navbar-nav li:not(:last-child) {
+        border-bottom: 1.5px dotted black;
+        border-right: none;
+    }
+
+    .navbar-nav li {
+        padding: 0.7rem;
+        width: 95%;
+        margin: 1px;
+    }
+
+    .btn-team {
+        position: static;
+    }
+
+    p {
+        font-size: calc(1rem + 0.7vmin);
+    }
+
+
+    h3 {
+        font-size: calc(1.2rem + 1.2vmin);
+    }
+
+
+  
+
+    .team-content {
+        text-align: center;
+    }
+
 }
-.navbar-nav li {
-    padding: 0.7rem;
-    width: 95%;
-    margin: 1px;
-}
+
+
+@media screen and (max-width: 576px) {
+    .btn-team {
+        position: static;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+
+    .team-img {
+        padding-bottom: 1rem;
+    }
+
+    footer {
+        margin-top: 1rem;
+    }
 }

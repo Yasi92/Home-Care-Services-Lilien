@@ -2,7 +2,4 @@
 
 window.onload = function() {
     $(".main-img").hide().fadeIn(4000);
-
-
-    
 };

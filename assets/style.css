@@ -6,15 +6,18 @@
     border: 0;
 }
 
+
 html {
     min-width: fit-content;
 }
+
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #EAE8ED;
 }
 
+/* //////////////////////// texts and headings////////////////////// */
 .heading {
     color: #440E44;
     font-size: calc(1rem + 1.5vmin);
@@ -25,17 +28,12 @@ body {
     font-weight: bold;
 }
 
-
-
-
-
 p {
     font-weight: 400;
     font-size: calc(1rem + 0.4vmin);
     line-height: 1.8;
     margin-bottom: 0;
 }
-
 
 h4 {
     font-size: calc(1rem + 0.5vmin);
@@ -49,6 +47,7 @@ a {
     text-align: center;
     font-size: 1.1rem;
 }
+
 
 a:hover {
     text-decoration: none;
@@ -66,6 +65,17 @@ h3 {
     color: #1a1a16;
     margin-bottom: 0;
 }
+
+#contact-links {
+    font-size: calc(.9rem + 0.4vw);
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+/* ///////////////////////////////navbar//////////////////////// */
 
 
 #navigation {
@@ -106,7 +116,7 @@ h3 {
     color: #440E44;
 }
 
-
+/* ///////////////////////////////////////////cols and rows//////////////////////////////// */
 
 
 .col-10 {
@@ -136,17 +146,16 @@ h3 {
     padding-right: 0;
 }
 
+/* ///////////////////////buttons and containers//////////////////////// */
+
 .team-box {
-    background-color: #CCE0D1;
-    border: 1px solid #CCE0D1;
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 1%;
-    box-shadow: 1px 1px 8px #BFD9C6;
+    box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.6);
 }
 
 .contact-info {
     background-color: rgba(255, 255, 255, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    ;
     border-radius: 1%;
     box-shadow: 1px 1px 8px #ffffff;
 }
@@ -154,7 +163,6 @@ h3 {
 .team-content {
     position: relative;
 }
-
 
 
 .btn-primary {
@@ -176,7 +184,6 @@ h3 {
 .btn-team {
     position: absolute;
     bottom: 0;
-
 }
 
 .btn-primary:hover,
@@ -185,33 +192,12 @@ h3 {
     color: black;
     border: none;
     outline: none;
-
 }
 
 
 #map {
     height: 23em;
     width: 100%;
-}
-
-
-footer {
-    background-color: white;
-    border-top: 1px solid #440e4471;
-    box-shadow: 0px 0px 9px #440e4471;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 1.5rem;
-
-}
-
-#contact-links {
-    font-size: calc(.9rem + 0.4vw);
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 1.5;
-    margin: 0;
-    text-transform: capitalize;
 }
 
 .card-group>.card {
@@ -223,8 +209,26 @@ footer {
 }
 
 
+/* //////////////////////footer////////////////////////// */
 
-/* //---------------------------- */
+
+footer {
+    background-color: white;
+    border-top: 1px solid #440e4471;
+    box-shadow: 0px 0px 9px #440e4471;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+
+/* ///////////////////////// iPad design ////////////////////// */
+
+
 @media screen and (max-width: 991px) {
     .navbar-nav li:not(:last-child) {
         border-bottom: 1.5px dotted black;
@@ -241,6 +245,7 @@ footer {
         position: static;
     }
 
+
     p {
         font-size: calc(1rem + 0.7vmin);
     }
@@ -251,13 +256,13 @@ footer {
     }
 
 
-  
-
     .team-content {
         text-align: center;
     }
 
 }
+
+/* ////////////////////////Mobile design ///////////////////////// */
 
 
 @media screen and (max-width: 576px) {
@@ -268,8 +273,6 @@ footer {
     p {
         font-size: 1rem;
     }
-
-    
 
     .contact-info {
         text-align: center;

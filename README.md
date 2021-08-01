@@ -2,27 +2,44 @@
 
 ## Home Care Services Lilien
 
-
-
-
+This is the website of the outpatient nursing service in Hannover. 
+The idea to create this website is to improve the existing website in wordpress, however, this version was not inspired by the old version in any way but in terms of content and site material.          
+My goal to create this website is twofold, educational and commercial, and I tried to meet most expectations in both aspects.
 
 ## UX
+---
 
-My goal to create this website is twofold, educational and commercial and I have tried to meet most expectations in both aspects.
-Here I have tried to create a website with a minimal design and yet, keep it appealing and rich in terms of content and material.
+
+This website gives an overview of the outpatient nursing service in Hannover. The main information is divided into 4 different pages, which are easily accessible and clearly arranged to make the information intuitive and simple.
+
+
+
+
+
 ### The business objectives of this website are:
 
+- Make the brand known and the company virtually accessible.
+- Inform users about the company and the services it offers.
+- Allow users to contact the company via a form, email or phone call.
+- Allow users to conveniently find the location and directions.
+- Receive emails and forms from potential employees interested in working for the company.
+- Provide some particularly interesting news and updates related to Covid-19's situation and statics in the country.
+- Provide information about the team.
 
 
 ###  The customer objectives of this website are:
 
-
-    
+- Find out more about this company.
+- Learn more about the company's team and services.
+- Contact the company to apply for a job.
+- Contact the company to request a service.
+- Review the terms of service to determine if the patient's needs match the company's services.
 
 
 ### The Ideal customer for this website:
 
- 
+Lives in Hanover and in needs of home care services.
+
 
 ### This project helps users achieve their goals when visiting the website by:
 
@@ -35,8 +52,15 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 
 
 
+
 ### User Stories:
 
+1. As a first time visitor, I want to know more in detail about this particular company.
+2. As a first time visitor, I want to know what types of service this company can offer.
+3. As a first time visitor, I want to send them a query by sending an email.
+4. As a potential employee, I want to apply for a job and send them my CV.
+5. As a first time visitor, I want to know if my needs match the types of the services they offer.
+6. As a returning visitor, I want to get directions to the location.
 
 
 
@@ -68,6 +92,8 @@ Here I have tried to create a website with a minimal design and yet, keep it app
 * #### Design in Depth
      *
      ![color theme](README-assets/screenshots/color.theme.png)
+
+     *In this project, an attempt was made to adapt the style and design as much as possible to the nature of the company's services.
 
      * The font families used in this project are:
           * Roboto for the body text and other elements.

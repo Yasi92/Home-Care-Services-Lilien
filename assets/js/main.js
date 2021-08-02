@@ -2,14 +2,21 @@
 
 window.onload = function() {
     $(".main-img").hide().fadeIn(4000);
+    
 };
 
-$('.corona-data').hide();
+$('#corona-data').hide();
+$('#news').hide();
 
-$('.corona-btn').click(function(){
-   $('.corona-data').slideToggle('slow');
+$('#corona-btn').click(function(){
+   $('#corona-data').slideToggle('slow');
    
 });
+
+$('#news-btn').click(function(){
+    $('#news').slideToggle('slow');
+    
+ });
 
 
 

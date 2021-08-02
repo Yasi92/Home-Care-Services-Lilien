@@ -61,9 +61,10 @@ async function getNewsData() {
         const providers = articles[i].provider.name;
 
         
-        ul += '<li class="list-group-item">' + '<a ' + 'href="' + baseURL + '"' + '>' + titles + '</a>' + '</li>';
+        ul += '<li class="list-group-item">' + '<a class="corona-links" ' + 'href="' + baseURL + '"' + '>' + titles + '</a>' + '</li>';
 
         document.getElementById("news").innerHTML = ul;
+        $('.corona-links').css('color', 'blue').css('text-decoration', 'underline');
     
  
     }

@@ -15,7 +15,7 @@
 
 async function getData() {
 
-    const response = await fetch("https://covid-19-data.p.rapidapi.com/country?name=Germany", {
+    const response = await fetch("https://covid-19-data.p.rapidapi.com/country?name=germany&format=json", {
         "method": "GET",
         "headers": {
             "x-rapidapi-key": "c627d0f2d2msh9ba409e5b8c495dp17c448jsn5469ec3ad079",
@@ -25,6 +25,7 @@ async function getData() {
 
     const data = await response.json();
     const options = await data[0];
+    console.log(data);
     const {
         country,
         confirmed,
@@ -45,7 +46,20 @@ async function getData() {
 getData();
 
 
+const settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://coronavirus-smartable.p.rapidapi.com/news/v1/DE/",
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "c627d0f2d2msh9ba409e5b8c495dp17c448jsn5469ec3ad079",
+		"x-rapidapi-host": "coronavirus-smartable.p.rapidapi.com"
+	}
+};
 
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
 
 
 

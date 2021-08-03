@@ -77,7 +77,7 @@ async function getNewsData() {
              <div class="card-body"> 
                  <h5 class="card-title">` + titles + '</h5>' + '<br>' +
                  '<p class="card-text">' + description + '...' + '</p>' + '<br>' +
-                '<a class="btn corona-links btn-primary" target="_blank" href="' + baseURL + '"' + '>' + "Read More" + '</a>' + '<br> <br>' +
+                '<a class="btn green-btn" target="_blank" href="' + baseURL + '"' + '>' + "Read More" + '</a>' + '<br> <br>' +
             '<div class="card-footer"> <small class="text-muted">' + 'Published:' + published + '</small>' + '</div>' +
             `</div>  </div>  </div>`;
 
@@ -85,7 +85,8 @@ async function getNewsData() {
 
 
         document.getElementById("corona-news").innerHTML = ul;
-        $('.corona-links').css('color', 'blue').css('text-decoration', 'underline');
+        
+        
 
 
     }

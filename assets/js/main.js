@@ -5,16 +5,16 @@ window.onload = function() {
     
 };
 
-$('#corona-data').hide();
-$('#news').hide();
+$('#corona-news').hide();
+$('#stats-data').hide();
 
 $('#corona-btn').click(function(){
    $('#corona-news').slideToggle('fast');
    
 });
 
-$('#news-btn').click(function(){
-    $('#news').slideToggle('slow');
+$('#stats-btn').click(function(){
+    $('#stats-data').slideToggle('slow');
     
  });
 

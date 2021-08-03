@@ -9,7 +9,7 @@ $('#corona-data').hide();
 $('#news').hide();
 
 $('#corona-btn').click(function(){
-   $('#corona-data').slideToggle('slow');
+   $('#corona-news').slideToggle('fast');
    
 });
 

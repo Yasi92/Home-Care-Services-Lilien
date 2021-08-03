@@ -49,9 +49,11 @@ async function getNewsData() {
     console.log(dataNews.news);
 
     var articles = dataNews.news;
-    var ul = '<ul class="list-group">';
 
-   
+    var ul = `<div class="row my-3 my-md-4">`;
+
+
+
 
     for (var i = 0; i < articles.length; i++) {
 
@@ -59,22 +61,39 @@ async function getNewsData() {
         const baseURL = articles[i].originalUrl;
         const description = articles[i].excerpt;
         const providers = articles[i].provider.name;
+        const published = articles[i].publishedDateTime;
 
-        
-        ul += '<li class="list-group-item">' + '<a class="corona-links" ' + 'href="' + baseURL + '"' + '>' + titles + '</a>' + '</li>';
 
-        document.getElementById("news").innerHTML = ul;
+        // ul += '<li class="list-group-item">' + 
+        // '<a class="corona-links" ' + 'href="' + baseURL + '"' + '>' + titles + '</a>' + '<br>' +
+        // '<p>' + description + '</p>' + '<br>' +
+        // '<small>' + providers + '</small>' 
+        //  + '</li>';
+
+
+        ul +=
+            `<div class=" d-flex  col-sm-4 py-3 py-md-4">
+            <div class="card"> 
+             <div class="card-body"> 
+                 <h5 class="card-title">` + titles + '</h5>' + '<br>' +
+                 '<p class="card-text">' + description + '...' + '</p>' + '<br>' +
+                '<a class="btn corona-links btn-primary" target="_blank" href="' + baseURL + '"' + '>' + "Read More" + '</a>' + '<br> <br>' +
+            '<div class="card-footer"> <small class="text-muted">' + 'Published:' + published + '</small>' + '</div>' +
+            `</div>  </div>  </div>`;
+
+
+
+
+        document.getElementById("corona-news").innerHTML = ul;
         $('.corona-links').css('color', 'blue').css('text-decoration', 'underline');
-    
- 
+
+
     }
 
 
-    ul += '</ul>';
+    ul += `</div>`;
 
-    
-
-
+    console.log(ul);
 }
 
 getNewsData();

@@ -101,7 +101,7 @@ h3 {
 
 .navbar-nav {
     list-style-type: none;
-    font-size: calc(0.5rem + 0.4vmin);
+    font-size: calc(0.4rem + 0.4vmin);
     letter-spacing: 3px;
     list-style-type: none;
     font-family: 'Nunito Sans', sans-serif;

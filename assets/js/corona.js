@@ -72,14 +72,14 @@ async function getNewsData() {
 
 
         ul +=
-            `<div class=" d-flex  col-sm-4 py-3 py-md-4">
+            `<div class=" d-flex col-sm-4 py-3 py-md-4">
             <div class="card"> 
-             <div class="card-body"> 
-                 <h5 class="card-title">` + titles + '</h5>' + '<br>' +
-                 '<p class="card-text">' + description + '...' + '</p>' + '<br>' +
-                '<a class="btn green-btn" target="_blank" href="' + baseURL + '"' + '>' + "Read More" + '</a>' + '<br> <br>' +
-            '<div class="card-footer"> <small class="text-muted">' + 'Published:' + published + '</small>' + '</div>' +
-            `</div>  </div>  </div>`;
+             <div class="card-body d-flex align-items-start flex-column text-left"> 
+                 <h5 class="card-title text-left">` + titles + '</h5>'  +
+                 '<p class="card-text">' + description + '...' + '</p>'  +
+                 '<div class="d-flex"><small class="text-muted mt-1">' + 'Published:' + published + '</small>' + '</div>'+
+                '<div class="mt-auto w-100"><div class="mb-1 d-flex justify-content-end"><a class="btn green-btn" target="_blank" href="' + baseURL + '"' + '>' + "Read More" + '</a></div>'+
+                `</div>  </div> </div> </div>`;
 
 
 

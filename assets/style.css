@@ -46,6 +46,13 @@ p {
     margin-bottom: 0;
 }
 
+.small-p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
 h4 {
     font-size: calc(1rem + 0.5vmin);
     margin-bottom: 0;
@@ -56,9 +63,18 @@ h5{
 }
 
 
+
+
 a {
     color: #1a1a16;
     text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.services-link{
+    color: #6227c0;
+    text-decoration:underline ;
     text-align: center;
     font-size: 1.1rem;
 }
@@ -88,6 +104,10 @@ h3 {
     line-height: 1.5;
     margin: 0;
     text-transform: capitalize;
+}
+
+.box-shadow{
+    box-shadow: 0px 0px 8px #440e4471;
 }
 
 /* ///////////////////////////////navbar//////////////////////// */
@@ -134,32 +154,24 @@ h3 {
 /* ///////////////////////////////////////////cols and rows//////////////////////////////// */
 
 
-.col-10 {
+.col-10, .col-lg-8 ,.col-lg-5, .col-md-5{
     padding-left: 0;
     padding-right: 0;
 }
 
-.col-lg-9 {
-    padding-left: 0;
-    padding-right: 0;
-}
 
-.col-lg-5 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.col-md-5 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.row {
+.col-lg-3, .col-md-4, .row{
     margin-right: 0;
     margin-left: 0;
     padding-left: 0;
     padding-right: 0;
+    
 }
+
+
+   
+
+
 
 
 

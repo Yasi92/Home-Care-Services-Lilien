@@ -20,3 +20,13 @@ $('#stats-btn').click(function(){
 
 
 
+ $(".service-desc").hide();
+
+ $(".services-link").click(function() {
+    $('.service-short-desc > p, h5, .services-img').hide();
+    $(".service-desc").slideToggle('slow').toggleClass('');
+ });
+
+
+
+ 

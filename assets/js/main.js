@@ -46,7 +46,7 @@ $(".services-link").on('click', function(event){
     $(button).hide();
     $(image).hide();
     $(text).fadeIn('slow');
-    $(clToggle).toggleClass('col-lg-8 col-10');
+    $(clToggle).toggleClass('col-lg-8');
     $(shortDescription).hide();
     // $(this).hide()
     // $(".service-desc").fadeIn('slow');
@@ -74,7 +74,7 @@ console.log(shortDescription);
     $(image).show();
     $(link).show();
     $(shortDescription).show();
-    $(clToggle).removeClass('col-lg-8 col-10');
+    $(clToggle).removeClass('col-lg-8');
    
     
     // $(".service-desc").hide();

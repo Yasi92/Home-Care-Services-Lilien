@@ -60,6 +60,12 @@ h5 {
   text-align: center;
 }
 
+.bordered-list li {
+  list-style: none;
+  border: 1px dotted #dbd5d5;
+  padding: 0.5rem;
+}
+
 a {
   color: #1a1a16;
   text-decoration: none;
@@ -158,6 +164,10 @@ h3 {
   position: relative;
 }
 
+.join-team-bg {
+  background-color: whitesmoke;
+}
+
 /* ////////////////////////////////////////flip cards//////////////////////////////// */
 :root {
   --time: 0.707s;
@@ -189,16 +199,10 @@ h3 {
   transform: rotateX(-180deg) translate(-100%, 0);
 }
 
-/* Make it Pretty */
-body {
-  line-height: 1.3;
-  font-family: sans-serif;
-}
-
 .cards {
   grid-gap: 1.5rem;
   grid-auto-rows: 1fr;
-  padding: 3rem;
+  padding: 1.5rem;
   background: whitesmoke;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
@@ -226,15 +230,17 @@ body {
 
 .card-front, .card-back {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: start;
   background-color: white;
   box-sizing: border-box;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 0.25rem;
 }
 
 .card-front {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .shadow, .card-front, .card-back {

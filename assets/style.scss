@@ -1,3 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+html {
+    min-width: fit-content;
+}
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #EAE8ED;
+}
+
+/* //////////////////////// texts and headings////////////////////// */
+.heading {
+    color: #1a1a16;
+    font-size: calc(1rem + 1.5vmin);
+    letter-spacing: 3px;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.heading-light {
+    color: #FFFFFF;
+    font-size: calc(1rem + 1.5vmin);
+    letter-spacing: 3px;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: bold;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: calc(1rem + 0.4vmin);
+    line-height: 1.8;
+    margin-bottom: 0;
+    text-align: justify;
+    
+}
+
+.small-p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+h4 {
+    font-size: calc(1rem + 0.5vmin);
+    margin-bottom: 0;
+}
+
+h5{
+    text-align: center;
+}
+
+
+
+
+a {
+    color: #1a1a16;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.services-link{
+    color: #6227c0;
+    text-decoration:underline ;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: #1a1a16;
+}
+
+
+h3 {
+    font-size: calc(1.2rem + 0.5vw);
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    color: #1a1a16;
+    margin-bottom: 0;
+}
+
+.heading-border{
+    border: 1px solid #bcdadd;
+    background-color: #bcdadd;
+    box-shadow: 0px 0px 3px #bcdadd;
+}
+
+#contact-links {
+    font-size: calc(.9rem + 0.4vw);
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.box-shadow{
+    box-shadow: 0px 0px 8px #440e4471;
+}
+
+/* ///////////////////////////////navbar//////////////////////// */
+
+
+#navigation {
+    background-color: white;
+    box-shadow: 0px 0px 8px #440e4471;
+}
+
+
+.navbar-nav {
+    list-style-type: none;
+    font-size: calc(0.4rem + 0.4vmin);
+    letter-spacing: 3px;
+    list-style-type: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+
+.navbar-nav li .nav-link:hover,.active {
+    color: #440E44;
+    text-shadow: 0 1px 0px #440E44;
+}
+
+
+.navbar-nav li:not(:last-child) {
+    border-right: 1px solid #440E44;
+}
+
+
+.nav-link {
+    color: #440E44;
+}
+
+/* ///////////////////////////////////////////cols and rows//////////////////////////////// */
+
+
+.col-10, .col-lg-8 ,.col-lg-5, .col-md-5{
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+
+.col-lg-3, .col-md-4, .row{
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    
+}
+
+/* ////////////////////////////////////////flip cards//////////////////////////////// */
+
 :root { --time: 0.707s; }
 
 .cards {
@@ -85,4 +267,182 @@ body {
               0 4px 4px rgba(0,0,0,0.04), 
               0 8px 8px rgba(0,0,0,0.04),
               0 16px 16px rgba(0,0,0,0.04); 
+}
+
+ 
+
+/* ///////////////////////buttons and containers//////////////////////// */
+
+.team-box {
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.6);
+}
+
+.contact-info {
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 1px 1px 8px #ffffff;
+}
+
+.team-content {
+    position: relative;
+}
+
+
+.btn-primary {
+    background-color: #9F54B6;
+    border: none;
+    color: #FAFBEF;
+    box-shadow: 0px 0px 6px #9F54B6;
+
+}
+
+.btn:focus,
+.btn:hover {
+    background-color: #C79BD4;
+    border: none;
+    outline: none;
+
+}
+
+.btn-info{
+    background-color: #bcdadd;
+    border: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+.btn-info:hover, .btn-info:focus{
+    background-color: #62a9af;
+    border: none;
+    
+}
+
+
+.btn-team {
+    position: absolute;
+    bottom: 0;
+}
+
+.green-btn {
+    background-color: #B3D1BB;
+    border: none;
+    color: black;
+}
+
+.green-btn:hover{
+    background-color: #80B38D;
+    border: none;
+    color: black;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #C79BD4;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+
+#map {
+    height: 23em;
+    width: 100%;
+}
+
+.card-group>.card {
+    margin-bottom: 0;
+}
+
+.team-img {
+    padding-bottom: 1.5rem;
+}
+
+.news-col{
+    background-color: #AF70C2;
+    box-shadow: 1px 1px 8px #AF70C2;
+}
+/* //////////////////////footer////////////////////////// */
+
+
+footer {
+    background-color: white;
+    box-shadow: 0px 0px 9px #440e4471;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+
+/* ///////////////////////// iPad design ////////////////////// */
+
+
+@media screen and (max-width: 991px) {
+    .navbar-nav li:not(:last-child) {
+        border-bottom: 1.5px dotted black;
+        border-right: none;
+    }
+
+    .navbar-nav li {
+        padding: 0.7rem;
+        width: 95%;
+        margin: 1px;
+    }
+
+    .btn-team {
+        position: static;
+    }
+
+    
+
+
+    p {
+        font-size: calc(1rem + 0.7vmin);
+    }
+
+
+    h3 {
+        font-size: calc(1.2rem + 1.2vmin);
+    }
+
+
+    .team-content {
+        text-align: center;
+    }
+
+}
+
+/* ////////////////////////Mobile design ///////////////////////// */
+
+
+@media screen and (max-width: 576px) {
+    .btn-team {
+        position: static;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+
+    .team-img {
+        padding-bottom: 1rem;
+    }
+
+    footer {
+        margin-top: 1rem;
+    }
 }

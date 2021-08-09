@@ -181,7 +181,27 @@ h3 {
 /* ////////////////////////////////////////flip cards//////////////////////////////// */
 
 
-  
+.quickflip {
+    cursor:pointer; 
+    position:relative;
+    width:300px;
+    height:300px;
+}
+.qf-card {
+    opacity:0.8;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: blue;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.qf-card.qf-front {
+    position:relative;
+    background:red;
+}
 
  
 

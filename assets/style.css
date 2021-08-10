@@ -17,8 +17,8 @@ body {
 
 /* //////////////////////// texts and headings////////////////////// */
 .heading {
-  color: #1a1a16;
-  font-size: calc(1rem + 1.5vmin);
+  color: #500966;
+  font-size: calc(1.2rem + 1.5vmin);
   letter-spacing: 3px;
   line-height: 1.7;
   text-align: center;
@@ -144,16 +144,37 @@ h3 {
 
 .navbar-nav li .nav-link:hover,
 .active {
-  color: #440E44;
-  text-shadow: 0 1px 0px #440E44;
+  color: #21072a;
+  text-shadow: 0 1px 0px #21072a;
 }
 
 .navbar-nav li:not(:last-child) {
-  border-right: 1px solid #440E44;
+  border-right: 1px solid #500966;
 }
 
 .nav-link {
-  color: #440E44;
+  color: #500966;
+}
+
+#myBtn {
+  
+  display: none;
+  position: fixed;
+  bottom: 3.5em;
+  right: 0;
+  z-index: 99;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+  background-color: rgba(60, 3, 107, 0.7);
+  color: white;
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 30%;
+}
+
+#myBtn:hover {
+  background-color: #d3a6ec;
 }
 
 /* ///////////////////////////////////////////cols and rows//////////////////////////////// */

@@ -1,7 +1,41 @@
+
+
+
 gsap.from(".main-img", {
     duration: 5,
-    ease: "circ.out",
-    y: -500
+    ease: "power2",
+    y: -500,
+    opacity: 0,
+    scale: 0.3
+});
+
+gsap.from(".heading", {
+duration: 3,
+ease: "power1",
+y: -500,
+opacity:0,
+scale: 0.3,
+delay:1,
+});
+
+gsap.from(".nav-item", {
+    duration: 3,
+    rotation:360,
+    ease: "power1",
+    x: 500,
+    opacity:0,
+    scale: 0.3,
+  
+});
+
+gsap.from(".logo", {
+    duration: 3,
+    rotation:360,
+    ease: "power1",
+    x: -500,
+    opacity:0,
+    scale: 0.3,
+    
 });
 
 // window.onload = function() {

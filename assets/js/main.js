@@ -1,41 +1,44 @@
-
-
-
 gsap.from(".main-img", {
     duration: 5,
     ease: "power2",
-    y: -500,
+    y: -400,
     opacity: 0,
     scale: 0.3
 });
 
 gsap.from(".heading", {
-duration: 3,
-ease: "power1",
-y: -500,
-opacity:0,
-scale: 0.3,
-delay:1,
+    duration: 3,
+    ease: "power1",
+    y: -400,
+    opacity: 0,
+    scale: 0.3,
+    delay: 1,
 });
 
 gsap.from(".nav-item", {
     duration: 3,
-    rotation:360,
+    rotation: 360,
     ease: "power1",
-    x: 500,
-    opacity:0,
+    x: 200,
+    opacity: 0,
     scale: 0.3,
-  
+    stagger: .2,
+    delay:1
+    
+
 });
+
 
 gsap.from(".logo", {
     duration: 3,
-    rotation:360,
+    rotation: 360,
     ease: "power1",
-    x: -500,
-    opacity:0,
+    x: -200,
+    opacity: 0,
     scale: 0.3,
+    delay:1
     
+
 });
 
 // window.onload = function() {
@@ -58,39 +61,39 @@ $('#stats-btn').click(function () {
 });
 
 
-$('.job-int-btn').click(function(event){
-let card = event.target.parentElement.parentElement.parentElement;
+$('.job-int-btn').click(function (event) {
+    let card = event.target.parentElement.parentElement.parentElement;
 
-$(card).toggleClass('flipped'); 
-console.log(card);
-
-    // $(this).toggleClass('flipped');
-  });
-
-
-$('.back-job-btn').click(function(event){
-let card = event.target.parentElement.parentElement.parentElement.parentElement;
-
-$(card).toggleClass('flipped'); 
-console.log(card);
+    $(card).toggleClass('flipped');
+    console.log(card);
 
     // $(this).toggleClass('flipped');
-  });
+});
+
+
+$('.back-job-btn').click(function (event) {
+    let card = event.target.parentElement.parentElement.parentElement.parentElement;
+
+    $(card).toggleClass('flipped');
+    console.log(card);
+
+    // $(this).toggleClass('flipped');
+});
 
 
 
 
 $(".service-desc").hide();
 
-$(".services-link").on('click', function(event){
-   
+$(".services-link").on('click', function (event) {
+
     let button = event.target;
     let shortDescription = event.target.parentElement.childNodes[3];
     let text = event.target.parentElement.nextElementSibling;
     let clToggle = event.target.parentElement.parentElement;
     let image = event.target.parentElement.parentElement.previousElementSibling;
 
-   
+
 
     $(button).hide();
     $(image).hide();
@@ -101,39 +104,32 @@ $(".services-link").on('click', function(event){
     // $(".service-desc").fadeIn('slow');
     // $('.col-toggle').toggleClass('col-lg-8 col-10');
     // console.log($(this));
-  
 
-    
+
+
 });
 
 
 
 
-$(".back-btn").on('click' ,function (event) {
-   
-    
+$(".back-btn").on('click', function (event) {
+
+
     let text = event.target.parentElement.parentElement;
     let link = event.target.parentElement.parentElement.previousElementSibling.childNodes[5];
     let shortDescription = event.target.parentElement.parentElement.previousElementSibling.childNodes[3];
     let image = event.target.parentElement.parentElement.parentElement.previousElementSibling;
     let clToggle = event.target.parentElement.parentElement.parentElement;
-   
-console.log(shortDescription);
+
+    console.log(shortDescription);
     $(text).hide()
     $(image).show();
     $(link).show();
     $(shortDescription).show();
     $(clToggle).removeClass('col-lg-8');
-   
-    
+
+
     // $(".service-desc").hide();
     // $('.service-short-desc > p, h5, .services-img').show();
     // $('.col-toggle').removeClass('col-lg-8 col-10');
 });
-
-
-
-
-
-
-

@@ -24,14 +24,29 @@ $('#stats-btn').click(function () {
 });
 
 
+$('.job-int-btn').click(function(event){
+let card = event.target.parentElement.parentElement.parentElement;
+
+$(card).toggleClass('flipped'); 
+console.log(card);
+
+    // $(this).toggleClass('flipped');
+  });
+
+
+$('.back-job-btn').click(function(event){
+let card = event.target.parentElement.parentElement.parentElement.parentElement;
+
+$(card).toggleClass('flipped'); 
+console.log(card);
+
+    // $(this).toggleClass('flipped');
+  });
+
+
+
 
 $(".service-desc").hide();
-
-
-
-
-
-
 
 $(".services-link").on('click', function(event){
    

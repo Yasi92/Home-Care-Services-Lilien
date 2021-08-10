@@ -355,6 +355,31 @@ h3 {
   box-shadow: 1px 1px 8px #AF70C2;
 }
 
+/* //////////////////////////////////////////////forms/////////////////////////////// */
+.cv-legend {
+
+  background-image: url(images/Download\ Job\ Interview\ Conversation\ for\ free.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  
+
+}
+
+form {
+
+  color: #fff;
+  background-color: rgba(75, 56, 97, 0.6);
+  width: 60%;
+  height: 60%;
+  padding: 30px;
+  border-radius: .25rem;
+  
+}
+
+
+
 /* //////////////////////footer////////////////////////// */
 footer {
   background-color: white;

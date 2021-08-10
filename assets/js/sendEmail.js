@@ -1,3 +1,6 @@
+
+// The method for sending forms is learned from code institute tutorials.
+
 function sendMail(contactForm) {
     emailjs.send("service_knliyzr","template_eyhvnn5", {
         "first-name": contactForm.name.value,
@@ -16,5 +19,5 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
-    return false;  // To block from loading a new page
+    return false;  
 }

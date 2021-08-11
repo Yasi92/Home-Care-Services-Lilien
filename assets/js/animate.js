@@ -1,4 +1,9 @@
+document.addEventListener("DOMContentLoaded", function(event) {
+window.onload = function(){
+
+
 gsap.from(".main-img", {
+    autoAlpha:0,
     duration: 5,
     ease: "power2",
     y: -400,
@@ -79,3 +84,6 @@ gsap.from("#covid-stats", {
     opacity:0,
     scale:1
 });
+
+
+}});

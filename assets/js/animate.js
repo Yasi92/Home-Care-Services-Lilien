@@ -54,7 +54,6 @@ gsap.from("#covid-news", {
        
         trigger: "#covid-news",
         start: "bottom 90%",
-        markers: true,
         toggleActions: "restart none none pause"
     },
 
@@ -63,18 +62,15 @@ gsap.from("#covid-news", {
     ease: "back",
     x: -400,
     duration: 4,
-    // opacity:0,
-    // scale:1,
-
-}
-);
+    opacity:0,
+    scale:1,
+});
  
 gsap.from("#covid-stats", {
     scrollTrigger: {
         
         trigger: "#covid-stats",
         start: "top 90%",
-        markers: true,
         toggleActions: "restart none none pause"
     },
     autoAlpha: 0,
@@ -82,8 +78,6 @@ gsap.from("#covid-stats", {
     ease: "back",
     x: 400,
     duration: 4,
-    // opacity:0,
-    // scale:1
-
-
+    opacity:0,
+    scale:1
 });

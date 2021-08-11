@@ -1,45 +1,46 @@
-gsap.from(".main-img", {
-    duration: 5,
-    ease: "power2",
-    y: -400,
-    opacity: 0,
-    scale: 0.3
-});
+// gsap.from(".main-img", {
+//     duration: 5,
+//     ease: "power2",
+//     y: -400,
+//     opacity: 0,
+//     scale: 0.3
+// });
 
-gsap.from(".heading", {
-    duration: 3,
-    ease: "power1",
-    y: -400,
-    opacity: 0,
-    scale: 0.3,
-    delay: 1,
-});
+// gsap.from(".heading", {
+//     duration: 3,
+//     ease: "power1",
+//     y: -400,
+//     opacity: 0,
+//     scale: 0.3,
+//     delay: 1,
+// });
 
-gsap.from(".nav-item", {
-    duration: 3,
-    rotation: 360,
-    ease: "power1",
-    x: 200,
-    opacity: 0,
-    scale: 0.3,
-    stagger: .1,
-    delay:1
-    
-
-});
+// gsap.from(".nav-item", {
+//     duration: 3,
+//     rotation: 360,
+//     ease: "power1",
+//     x: 200,
+//     opacity: 0,
+//     scale: 0.3,
+//     stagger: .1,
+//     delay: 1
 
 
-gsap.from(".logo", {
-    duration: 3,
-    rotation: 360,
-    ease: "power1",
-    x: -200,
-    opacity: 0,
-    scale: 0.3,
-    delay:1
-    
+// });
 
-});
+
+// gsap.from(".logo", {
+//     duration: 3,
+//     rotation: 360,
+//     ease: "power1",
+//     x: -200,
+//     opacity: 0,
+//     scale: 0.3,
+//     delay: 1
+
+
+// });
+
 
 // window.onload = function() {
 //     $(".main-img").hide().fadeIn(4000);
@@ -134,17 +135,29 @@ $(".back-btn").on('click', function (event) {
     // $('.col-toggle').removeClass('col-lg-8 col-10');
 });
 
+
+
+
+//Back to top button
 var mybutton = document.getElementById("myBtn");
-            window.onscroll = function() {scrollFunction()};
-            
-            function scrollFunction() {
-            if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-            }
-            function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-            }
+window.onscroll = function () {
+    scrollFunction()
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+
+
+
+

@@ -8,6 +8,7 @@
 
 html {
   min-width: fit-content;
+  overflow-x: hidden;
 }
 
 body {
@@ -200,6 +201,8 @@ h3 {
 .join-team-bg {
   background-color: whitesmoke;
 }
+
+
 
 /* ////////////////////////////////////////flip cards//////////////////////////////// */
 :root {
@@ -475,3 +478,9 @@ footer {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+#covid-news, #covid-stats{
+ visibility: hidden;
+}

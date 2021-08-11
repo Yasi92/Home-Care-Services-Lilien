@@ -87,3 +87,13 @@ gsap.from("#covid-stats", {
 
 
 }});
+
+
+// the method has been learned from gsap documentaion and video tutorial "https://greensock.com/docs/v3/Plugins/ScrollTrigger/static.batch()"
+ScrollTrigger.batch(".service-row", {
+    onEnter: batch => {
+      gsap.from(batch, {x:-400, duration: 2, stagger:.2})
+    },
+    toggleActions: "restart pause resume pause"
+    
+  })

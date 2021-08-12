@@ -14,6 +14,8 @@ html {
 body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: #EAE8ED;
+  perspective: 40rem;
+  -webkit-perspective:40rem;
 }
 
 /* //////////////////////// texts and headings////////////////////// */

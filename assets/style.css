@@ -224,6 +224,7 @@ h3 {
 .card-body {
   display: flex;
   transform-style: preserve-3d;
+  transition: transform 0.5s;
   transition: var(--time) transform;
 }
 
@@ -239,7 +240,7 @@ h3 {
 .card-back {
   backface-visibility: hidden;
   min-width: 100%;
-}
+} 
 
 .card-back {
   transform: rotateX(-180deg) translate(-100%, 0);

@@ -219,7 +219,9 @@ h3 {
 
 .card {
   perspective: 40rem;
+  -webkit-perspective:40rem;
 }
+
 
 .card-body {
   display: flex;

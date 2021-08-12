@@ -217,19 +217,30 @@ h3 {
 
 .cards {
   display: grid;
+  -webkit-perspective:40rem;
+  -o-perspective: 40rem;
+  -moz-perspective: 40rem;
+  perspective: 40rem;
 }
 
 .card {
   perspective: 40rem;
   -webkit-perspective:40rem;
+  -o-perspective: 40rem;
+  -moz-perspective: 40rem;
 }
 
 
 .card-body {
   display: flex;
   transform-style: preserve-3d;
-  /* transition: transform 0.5s; */
   transition: var(--time) transform;
+  -webkit-transition: var(--time) transform;
+  -o-transition: var(--time) transform;
+  -moz-transition: var(--time) transform;
+  -webkit-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
 }
 
 /* .card:hover .card-body, .card:focus .card-body {
@@ -238,16 +249,25 @@ h3 {
 
 .card.flipped .card-body {
   transform: rotateX(-180deg);
+  -webkit-transform: rotateX(-180deg);
+  -o-transform: rotateX(-180deg);
+  -moz-transform: rotateX(-180deg);
 }
 
 .card-front,
 .card-back {
   backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
   min-width: 100%;
 } 
 
 .card-back {
   transform: rotateX(-180deg) translate(-100%, 0);
+  -moz-transform: rotateX(180deg) translate(-100%, 0);
+  -webkit-transform: rotateX(180deg) translate(-100%, 0);
+  -o-transform: rotateX(180deg) translate(-100%, 0);
   background-color: #c2edf3;
 }
 
@@ -262,20 +282,26 @@ h3 {
 .card {
   display: flex;
   transition: z-index, transform calc(var(--time) / 4);
+  -webkit-transition: z-index, transform calc(var(--time) / 4);
+  -o-transition: z-index, transform calc(var(--time) / 4);
+  -moz-transition: z-index, transform calc(var(--time) / 4);
   transition-delay: var(--time), 0s;
+  -webkit-transition-delay: var(--time), 0s;
+  -o-transition-delay: var(--time), 0s;
+  -moz-transition-delay: var(--time), 0s;
   text-decoration: none;
   color: inherit;
   z-index: 0;
 }
 
-.card:hover {
+/* .card:hover {
   transition-delay: 0s;
   z-index: 1;
 }
 
 .card:active {
   transform: scale(0.975);
-}
+} */
 
 .card-body {
   border-radius: 0.25rem;

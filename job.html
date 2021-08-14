@@ -61,7 +61,7 @@
 					class="img-fluid mx-auto main-img box-shadow " alt="Responsive image">
 			</div>
 		</div>
-	<div class="row pb-5 justify-content-center"> 
+		<div class="row pb-5 justify-content-center">
 			<div class="col-10 col-lg-8 pt-5 join-team-bg">
 				<h2 class="text-center">Join Our Team</h2>
 				<div class="cards">
@@ -119,68 +119,72 @@
 					</div>
 				</div>
 			</div>
-		</div> 
+		</div>
 
 		<div class="row justify-content-center">
-			<div class="cv-legend py-4 col-lg-8 col-10">
+			<div class="py-4 cv-bg col-lg-8 col-10">
 				<div>
 					<h3 class="text-center pb-4">Apply Here</h3>
 				</div>
-				<form onsubmit="return sendMail(this);" class="mx-auto job-apply-form" action="post">
-					<div class="form-row">
-						<div class="form-group col-md-6">
-							<label for="first-name">First name</label>
-							<input type="text" name="name" class="form-control" placeholder="First name" id="first-name"
-								required />
-						</div>
-						<div class="form-group col-md-6">
-							<label for="emailaddress">Last name</label>
-							<input type="text" name="lastname" class="form-control" placeholder="Last name"
-								id="emailaddress" required />
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col-12">
-							<label for="email-address">Email</label>
-							<input type="email" name="email" class="form-control" id="email-address" placeholder="Email"
-								required />
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col-12">
-							<label for="address">Address</label>
-							<input type="text" name="address" class="form-control" id="address"
-								placeholder="1234 Main St" />
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col-12">
-							<label for="phone-number">Telephone</label>
-							<input type="text" name="phone" class="form-control" id="phone-number"
-								placeholder="Phone Number" required />
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col-12">
-							<label for="upload-cv">Upload Your Resume</label>
-							<div class="custom-file">
-								<label class="custom-file-label" for="upload-cv"></label>
-								<input type="file" name="cv" class="custom-file-input" id="upload-cv"
-									placeholder="Choose file" />
+				<div class="row">
+					<div class="col-10 col-lg-7 mx-auto">
+						<form onsubmit="return sendMail(this);" class="mx-auto job-apply-form" action="post">
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="first-name">First name</label>
+									<input type="text" name="name" class="form-control" placeholder="First name"
+										id="first-name" required />
+								</div>
+								<div class="form-group col-md-6">
+									<label for="emailaddress">Last name</label>
+									<input type="text" name="lastname" class="form-control" placeholder="Last name"
+										id="emailaddress" required />
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col-12">
-							<label for="Summary">Summary</label>
-							<textarea name="summary" class="form-control" id="Summary" rows="3"></textarea>
-						</div>
-					</div>
-					<div class="text-center">
-						<button class="btn green-btn mt-4" type="submit">Submit form</button>
-					</div>
+							<div class="form-row">
+								<div class="form-group col-12">
+									<label for="email-address">Email</label>
+									<input type="email" name="email" class="form-control" id="email-address"
+										placeholder="Email" required />
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-12">
+									<label for="address">Address</label>
+									<input type="text" name="address" class="form-control" id="address"
+										placeholder="1234 Main St" />
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-12">
+									<label for="phone-number">Telephone</label>
+									<input type="text" name="phone" class="form-control" id="phone-number"
+										placeholder="Phone Number" required />
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-12">
+									<label for="upload-cv">Upload Your Resume</label>
+									<div class="custom-file">
+										<label class="custom-file-label" for="upload-cv"></label>
+										<input type="file" name="cv" class="custom-file-input" id="upload-cv"
+											placeholder="Choose file" />
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-12">
+									<label for="Summary">Summary</label>
+									<textarea name="summary" class="form-control" id="Summary" rows="3"></textarea>
+								</div>
+							</div>
+							<div class="text-center">
+								<button class="btn green-btn mt-4" type="submit">Submit form</button>
+							</div>
 
-				</form>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

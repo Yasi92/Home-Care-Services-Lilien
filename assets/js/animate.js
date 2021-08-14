@@ -90,11 +90,16 @@ gsap.from("#covid-stats", {
 
 
 // the method has been learned from gsap documentaion and video tutorial "https://greensock.com/docs/v3/Plugins/ScrollTrigger/static.batch()"
+gsap.defaults({ease: "power1"});
+gsap.set(".service-row", {x: -400});
+
+
 ScrollTrigger.batch(".service-row", {
     onEnter: batch => {
-      gsap.from(batch, {x:-400, duration: 2, stagger:.2, once:true})
-    },
-    toggleActions: "restart none none pause"
-   
-    
-  })
+      gsap.to(batch, {x:0, duration: 2, stagger:.2,opacity: 1})
+    }
+  });
+
+  ScrollTrigger.addEventListener("refreshInit", () => gsap.set(".service-row", {x: -400}));
+  
+ 

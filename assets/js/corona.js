@@ -101,3 +101,39 @@
 
 
 
+gsap.registerPlugin(ScrollTrigger);
+
+
+gsap.from("#covid-news", {
+    scrollTrigger: {     
+        trigger: "#covid-news",
+        start: "bottom 90%",
+        toggleActions: "restart none none play"
+    },
+
+    autoAlpha: 0,
+    duration: 3,
+    ease: "back",
+    x: -400,
+    duration: 4,
+    opacity:0,
+    scale:1,
+});
+ScrollTrigger.addEventListener("refreshInit", () => gsap.set("#covid-news", {autoAlpha: 0}));
+ 
+gsap.from("#covid-stats", {
+    scrollTrigger: {
+        trigger: "#covid-stats",
+        start: "top 90%",
+        toggleActions: "restart none none play"
+    },
+    autoAlpha: 0,
+    duration: 3,
+    ease: "back",
+    x: 400,
+    duration: 4,
+    opacity:0,
+    scale:1
+});
+
+ScrollTrigger.addEventListener("refreshInit", () => gsap.set("#covid-stats", {autoAlpha: 0}));

@@ -58,7 +58,7 @@ gsap.from("#covid-news", {
     scrollTrigger: {     
         trigger: "#covid-news",
         start: "bottom 90%",
-        toggleActions: "restart none none pause"
+        toggleActions: "restart none none play"
     },
 
     autoAlpha: 0,
@@ -69,12 +69,13 @@ gsap.from("#covid-news", {
     opacity:0,
     scale:1,
 });
+ScrollTrigger.addEventListener("refreshInit", () => gsap.set("#covid-news", {autoAlpha: 1}));
  
 gsap.from("#covid-stats", {
     scrollTrigger: {
         trigger: "#covid-stats",
         start: "top 90%",
-        toggleActions: "restart none none pause"
+        toggleActions: "restart none none play"
     },
     autoAlpha: 0,
     duration: 3,
@@ -85,8 +86,8 @@ gsap.from("#covid-stats", {
     scale:1
 });
 
+ScrollTrigger.addEventListener("refreshInit", () => gsap.set("#covid-stats", {autoAlpha: 1}));
 
-}});
 
 
 // the method has been learned from gsap documentaion and video tutorial "https://greensock.com/docs/v3/Plugins/ScrollTrigger/static.batch()"
@@ -101,5 +102,20 @@ ScrollTrigger.batch(".service-row", {
   });
 
   ScrollTrigger.addEventListener("refreshInit", () => gsap.set(".service-row", {x: -400}));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
- 
+}});

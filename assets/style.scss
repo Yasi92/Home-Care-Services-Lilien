@@ -90,6 +90,10 @@ a {
   font-size: 1.1rem;
 }
 
+#contact-links h5,#contact-links>a {
+text-align: left;
+}
+
 a:hover {
   text-decoration: none;
   color: #1a1a16;
@@ -270,7 +274,7 @@ h3 {
 .cards {
   grid-gap: 1.5rem;
   grid-auto-rows: 1fr;
-  padding: 1.5rem;
+  padding:0 1.5rem;
   background: whitesmoke;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
@@ -336,16 +340,10 @@ h3 {
   position: relative;
 }
 
-.btn-primary {
-  background-color: #9F54B6;
-  border: none;
-  color: #FAFBEF;
-  box-shadow: 0px 0px 6px #9F54B6;
-}
+
 
 .btn:focus,
 .btn:hover {
-  background-color: #C79BD4;
   border: none;
   outline: none;
 }
@@ -363,6 +361,7 @@ h3 {
   border: none;
 }
 
+
 .btn-team {
   position: absolute;
   bottom: 0;
@@ -374,19 +373,27 @@ h3 {
   color: black;
 }
 
-.green-btn:hover {
+.green-btn:hover,
+.green-btn:focus {
   background-color: #80B38D;
   border: none;
   color: black;
 }
 
-.btn-primary:hover,
-.btn-primary:focus {
-  background-color: #C79BD4;
-  color: black;
+.submit-contact-form-btn{
+  background-color:  #dda7ee;
+  color: #fff;
   border: none;
-  outline: none;
 }
+
+.submit-contact-form-btn:hover,
+.submit-contact-form-btn:focus{
+  background-color: #AF70C2;
+  color: #fff;
+  border: none;
+  
+}
+
 
 #map {
   height: 23em;
@@ -447,7 +454,7 @@ footer {
   box-shadow: 0px 0px 9px #440e4471;
   text-align: center;
   padding: 1rem 0;
-  margin-top: 1.5rem;
+  
 }
 
 /* ///////////////////////// iPad design ////////////////////// */
@@ -504,9 +511,7 @@ footer {
     padding-bottom: 1rem;
   }
 
-  footer {
-    margin-top: 1rem;
-  }
+  
 
   
 
@@ -523,6 +528,18 @@ footer {
     padding: 1rem;
   }
 
+  #contact-links h5,#contact-links>a {
+    text-align: center;
+    }
+
+
+    #myBtn {
+  
+      bottom: 5em;
+      right: 0;
+      z-index: 99;
+      font-size: 1em;
+    }
 
 }
 

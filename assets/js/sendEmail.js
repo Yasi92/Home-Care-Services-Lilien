@@ -18,9 +18,15 @@ function sendMail(contactForm) {
             function (error) {
                 console.log("FAILED", error);
             }
+
+          
         );
     return false;
 }
+
+
+
+
 
 ///// Sending contact forms from contact.html
 function sendContactForm(contactForm) {
@@ -42,9 +48,21 @@ function sendContactForm(contactForm) {
                 console.log("FAILED", error);
             }
         )
-        .then(
-            
-        )
+        
 
+        function modalFunc() {
+            $('#myModal').modal('show'); 
+         }
+
+         modalFunc();
+         
     return false;
-}
+    
+
+};
+
+
+
+
+
+

@@ -192,7 +192,7 @@ h3 {
 .col-md-5 {
   padding-left: 0;
   padding-right: 0;
-  position: relative;
+  // position: relative;
 
 }
 
@@ -203,7 +203,7 @@ h3 {
   margin-left: 0;
   padding-left: 0;
   padding-right: 0;
-  position: relative;
+  // position: relative;
 }
 
 .join-team-bg {
@@ -448,6 +448,11 @@ h3 {
 
 
 
+
+
+ 
+
+
 /* //////////////////////footer////////////////////////// */
 footer {
   background-color: white;
@@ -456,6 +461,8 @@ footer {
   padding: 1rem 0;
   
 }
+// ////////////////////////////////////////modal//////////////////////////@at-root
+
 
 /* ///////////////////////// iPad design ////////////////////// */
 @media screen and (max-width: 991px) {

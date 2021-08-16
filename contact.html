@@ -24,10 +24,11 @@
 <body>
 	<header>
 		<button onclick="topFunction()" id="myBtn" title="Go to top">
-            <i class="fas fa-chevron-circle-up"></i>
-        </button>
+			<i class="fas fa-chevron-circle-up"></i>
+		</button>
 		<nav class="navbar navbar-expand-lg sticky-top px-4 px-md-5" id="navigation">
-			<a class="logo" href="index.html"><img  src="assets/images/logo.png" alt="logo" width="70vw" height="70vh"></a>
+			<a class="logo" href="index.html"><img src="assets/images/logo.png" alt="logo" width="70vw"
+					height="70vh"></a>
 			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
 				data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
 				aria-label="Toggle navigation"><span><i class="fas fa-bars"
@@ -51,6 +52,8 @@
 		</nav>
 	</header>
 
+
+
 	<section>
 		<div class="row pb-5 justify-content-center">
 			<div class="col-10 col-lg-8">
@@ -63,7 +66,7 @@
 			<div class="col-10 col-lg-8 contact-bg pb-4">
 				<h3 class="text-center pt-3">Get In Touch</h3>
 				<hr>
-				<form onsubmit="return sendContactForm(this);" id="contact-form" class="p-3">
+				<form onsubmit="return sendContactForm(this)" class="p-3">
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="first-name">First name</label>
@@ -117,11 +120,12 @@
 							<button type="submit" class="btn w-100 submit-contact-form-btn">Submit</button>
 						</div>
 					</div>
+	
 				</form>
+
 
 			</div>
 		</div>
-
 	</section>
 
 	<section>
@@ -157,15 +161,35 @@
 		</div>
 	</footer>
 
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
+			  ...
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			  <button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		  </div>
+		</div>
+	</div>
 
-	
+
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
 		integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
 		integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
 		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
 	</script>
@@ -175,6 +199,8 @@
 	<script src="assets/js/animate.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/sendEmail.js"></script>
+
+
 
 </body>
 

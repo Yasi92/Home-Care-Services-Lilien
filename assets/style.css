@@ -420,11 +420,13 @@ h3 {
   border-radius: 0.25rem;
 }
 
-.modal {
+.modal-1 {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  min-width: 500px;
+  z-index: 1050;
 }
 
 /* //////////////////////footer////////////////////////// */

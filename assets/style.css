@@ -429,6 +429,19 @@ h3 {
   z-index: 1050;
 }
 
+.modal-header {
+  background-color: #c38be2;
+}
+
+.modal-2 {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 500px;
+  z-index: 1050;
+}
+
 /* //////////////////////footer////////////////////////// */
 footer {
   background-color: white;

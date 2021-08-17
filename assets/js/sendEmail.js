@@ -17,10 +17,16 @@ function sendMail(contactForm) {
             },
             function (error) {
                 console.log("FAILED", error);
-            }
-
-          
-        );
+            })
+            
+            function modalFunc() {
+            
+                $('#myModalJob').modal('show')
+             };
+    
+             modalFunc();
+             
+             
     return false;
 }
 
@@ -52,7 +58,7 @@ function sendContactForm(contactForm) {
 
         function modalFunc() {
             
-            $('#exampleModalCenter').modal('show')
+            $('#myModal').modal('show')
          }
 
          modalFunc();

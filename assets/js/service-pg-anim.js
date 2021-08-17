@@ -20,31 +20,23 @@ gsap.from(".heading", {
     delay: 1,
 });
 
-gsap.from(".nav-item", {
-    duration: 3,
-    rotation: 360,
-    ease: "power1",
-    x: 200,
-    opacity: 0,
-    scale: 0.3,
-    stagger: .1,
-    delay: 1
-
-
-});
-
-
-gsap.from(".logo", {
-    duration: 3,
-    rotation: 360,
-    ease: "power1",
-    x: -200,
-    opacity: 0,
-    scale: 0.3,
-    delay: 1
-
-
-});
+function navAnimation(){
+    gsap.from(".nav-item", {
+        duration: 3,
+        rotation: 360,
+        ease: "power1",
+        x: 200,
+        opacity: 0,
+        scale: 0.3,
+        stagger: .1,
+        delay: 1
+    });
+    }
+    
+    
+    if ($(window).width() > 768) {
+        navAnimation();
+      }
 
 
 

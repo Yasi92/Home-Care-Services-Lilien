@@ -99,7 +99,7 @@ $(".services-link").on('click', function (event) {
     $(button).hide();
     $(image).hide();
     $(text).fadeIn('slow');
-    $(clToggle).toggleClass('col-lg-8');
+    $(clToggle).toggleClass('col-lg-9');
     $(shortDescription).hide();
     // $(this).hide()
     // $(".service-desc").fadeIn('slow');
@@ -127,7 +127,7 @@ $(".back-btn").on('click', function (event) {
     $(image).show();
     $(link).show();
     $(shortDescription).show();
-    $(clToggle).removeClass('col-lg-8');
+    $(clToggle).removeClass('col-lg-9');
 
 
     // $(".service-desc").hide();

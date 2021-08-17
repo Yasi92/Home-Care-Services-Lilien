@@ -37,16 +37,11 @@ gsap.from(".nav-item", {
 
 
 
-gsap.from(".logo", {
-    duration: 3,
-    rotation: 360,
-    ease: "power1",
-    x: -200,
-    opacity: 0,
-    scale: 0.3,
-    delay: 1
-});
-navAnimation();
-
+if ($(window).width() > 768) {
+    navAnimation();
+  }
+  
 
 }});
+
+

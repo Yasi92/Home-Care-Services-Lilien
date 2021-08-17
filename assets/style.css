@@ -478,6 +478,18 @@ footer {
   .team-content {
     text-align: center;
   }
+
+  .modal-1 {
+    position: fixed;
+    top: 50%;
+    min-width: 80%;
+  }
+
+  .modal-2 {
+    position: fixed;
+    bottom: 30%;
+    min-width: 80%;
+  }
 }
 /* ////////////////////////Mobile design ///////////////////////// */
 @media screen and (max-width: 576px) {
@@ -507,6 +519,10 @@ footer {
     padding-bottom: 1rem;
   }
 
+  .modal-dialog {
+    margin: 0;
+  }
+
   .job-apply-form {
     width: 100%;
     height: 100%;
@@ -527,6 +543,14 @@ footer {
     right: 0;
     z-index: 99;
     font-size: 1em;
+  }
+
+  .modal-1 {
+    bottom: 40%;
+  }
+
+  .modal-2 {
+    bottom: 20%;
   }
 }
 

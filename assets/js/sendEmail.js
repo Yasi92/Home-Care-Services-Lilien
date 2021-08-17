@@ -2,7 +2,7 @@
 ///// Sending job forms from job.html
 
 function sendMail(contactForm) {
-    emailjs.send("service_knliyzr", "template_eyhvnn5", {
+    emailjs.send("service_xji66q5","template_h8j6n8q", {
             "first-name": contactForm.name.value,
             "last-name": contactForm.lastname.value,
             "email": contactForm.email.value,
@@ -25,8 +25,7 @@ function sendMail(contactForm) {
              };
     
              modalFunc();
-             
-             
+                     
     return false;
 }
 
@@ -36,7 +35,7 @@ function sendMail(contactForm) {
 
 ///// Sending contact forms from contact.html
 function sendContactForm(contactForm) {
-    emailjs.send("service_knliyzr", "template_fpcvh9k", {
+    emailjs.send("service_xji66q5","template_js8cnn7", {
             "first-name": contactForm.name.value,
             "last-name": contactForm.lastname.value,
             "email": contactForm.email.value,

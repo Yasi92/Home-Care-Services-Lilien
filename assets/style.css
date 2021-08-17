@@ -420,6 +420,13 @@ h3 {
   border-radius: 0.25rem;
 }
 
+.modal {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* //////////////////////footer////////////////////////// */
 footer {
   background-color: white;

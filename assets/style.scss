@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600&family=Nunito+Sans:wght@300;400&display=swap');
+
 
 * {
   margin: 0;
@@ -11,7 +13,8 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  
+  font-family: 'Nunito Sans', sans-serif;
   background-color: #EAE8ED;
   perspective: 40rem;
   -webkit-perspective:40rem;
@@ -26,6 +29,7 @@ body {
   text-align: center;
   margin-bottom: 0;
   font-weight: bold;
+  font-family: 'Mukta', sans-serif;
 }
 
 .heading-light {
@@ -46,6 +50,11 @@ p {
   text-align: justify;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Mukta', sans-serif;
+  margin-bottom: 0;
+}
+
 .small-p {
   font-weight: 400;
   font-size: 1rem;
@@ -56,12 +65,16 @@ p {
 
 h4 {
   font-size: calc(1rem + 0.5vmin);
-  margin-bottom: 0;
+  
+  
 }
 
 h5 {
   text-align: center;
+
 }
+
+
 
 .bordered-list li {
   list-style: none;
@@ -78,8 +91,17 @@ a {
   color: #1a1a16;
   text-decoration: none;
   text-align: center;
-  font-size: 1.1rem;
+  // font-size: 1.1rem;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 400;
 }
+
+a:hover {
+  text-decoration: none;
+  color: #1a1a16;
+}
+
+
 
 .services-link {
   color: #6227c0;
@@ -92,17 +114,15 @@ a {
 text-align: left;
 }
 
-a:hover {
-  text-decoration: none;
-  color: #1a1a16;
-}
+
+
+
 
 h3 {
   font-size: calc(1.2rem + 0.5vw);
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 1px;
   text-transform: capitalize;
-  font-family: 'Nunito', sans-serif;
   color: #1a1a16;
   margin-bottom: 0;
 }
@@ -137,9 +157,14 @@ h3 {
   font-size: calc(0.4rem + 0.4vmin);
   letter-spacing: 3px;
   list-style-type: none;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Mukta', sans-serif;
   font-weight: 400;
 }
+
+.navbar-nav a {
+font-size: 1.2rem;
+}
+
 
 .navbar-nav li {
   display: inline-block;

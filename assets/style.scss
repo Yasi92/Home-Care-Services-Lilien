@@ -184,6 +184,14 @@ h3 {
 }
 
 /* ///////////////////////////////////////////cols and rows//////////////////////////////// */
+
+.container{
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+
 .col-12,
 .col-lg-9,
 .col-lg-5,
@@ -514,7 +522,12 @@ footer {
 
 
  
-
+  .job-apply-form {
+    width: 90%;
+    height: 100%;
+    padding: 1rem;
+  
+  }
 .modal-1{
  
  
@@ -571,12 +584,7 @@ footer {
 
   
 
-  .job-apply-form {
-    width: 90%;
-    height: 100%;
-    padding: 1rem;
-  
-  }
+
 
   .cards {
       

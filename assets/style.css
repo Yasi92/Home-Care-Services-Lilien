@@ -180,6 +180,11 @@ h3 {
 }
 
 /* ///////////////////////////////////////////cols and rows//////////////////////////////// */
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .col-12,
 .col-lg-9,
 .col-lg-5,
@@ -478,6 +483,12 @@ footer {
     text-align: center;
   }
 
+  .job-apply-form {
+    width: 90%;
+    height: 100%;
+    padding: 1rem;
+  }
+
   .modal-1 {
     top: 50%;
     min-width: 80%;
@@ -518,12 +529,6 @@ footer {
 
   .modal-dialog {
     margin: 0;
-  }
-
-  .job-apply-form {
-    width: 90%;
-    height: 100%;
-    padding: 1rem;
   }
 
   .cards {

@@ -114,7 +114,7 @@ gsap.from("#covid-news", {
     autoAlpha: 0,
     duration: 3,
     ease: "back",
-    x: -400,
+    z: 200,
     duration: 4,
     opacity:0,
     scale:1,
@@ -130,10 +130,11 @@ gsap.from("#covid-stats", {
     autoAlpha: 0,
     duration: 3,
     ease: "back",
-    x: 400,
+    z: -200,
     duration: 4,
     opacity:0,
-    scale:1
+    scale:1,
+    
 });
 
 ScrollTrigger.addEventListener("refreshInit", () => gsap.set("#covid-stats", {autoAlpha: 0}));

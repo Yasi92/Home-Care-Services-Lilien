@@ -6,7 +6,7 @@
 }
 
 html {
-  min-width: fit-content;
+   min-width: fit-content;
   // overflow-x: hidden;
 }
 
@@ -498,6 +498,11 @@ footer {
     border-right: none;
   }
 
+  .container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .navbar-nav li {
     padding: 0.7rem;
     width: 95%;
@@ -554,7 +559,10 @@ footer {
     max-width: 100vw;
    
   }
-
+  .container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 
   .btn-team {
     position: static;

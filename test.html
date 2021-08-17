@@ -1,56 +1,218 @@
-<div class="row pb-5 justify-content-center">
-    <div class="col-lg-3 col-10 box-shadow ">
-        <img src="assets/images/personal-care.jpg" style="width: 100%;" class="img-fluid" alt="Card image cap">
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OUTPATIENT NURSING SERVICES LILIEN</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/style.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("user_67J5yECVdbpm9Da0YHZbu");
+            })();
+        </script>
+    
+    </head>
+    
+
+<body>
+
+    <header>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<i class="fas fa-chevron-circle-up"></i>
+		</button>
+		<nav class="navbar navbar-expand-lg sticky-top px-4 px-md-5" id="navigation">
+			<a class="logo" href="index.html"><img src="assets/images/logo.png" alt="logo" width="70vw"
+					height="70vh"></a>
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+				data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+				aria-label="Toggle navigation"><span><i class="fas fa-bars"
+						style="font-size: 2rem;"></i></span></button>
+			<div class="navbar-collapse collapse" id="navbarTogglerDemo01">
+				<ul class="nav navbar-nav ml-auto align-items-center">
+					<li class="nav-item">
+						<a class="active--nav nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="services.html">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="job.html">Job Offer</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="contact.html">contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="bg-light px-4 col-lg-5 col-10 box-shadow ">
-        <h3 class="py-3 text-center">Personal Care</h3>
-        <p class="small-p">If your loved one has advanced care needs, personal care may be the right
-            choice...
-        </p>
-        <a class="services-link" href="#">Learn More</a>
-    </div>
-</div>
-
-<div class="row pb-5 justify-content-center">
-    <div class="col-lg-3 col-10 box-shadow ">
-        <img src="assets/images/specialized-care.jpg" style="width: 100%;" class="img-fluid"
-            alt="Card image cap">
-    </div>
-    <div class="bg-light px-4 col-lg-5 col-10 box-shadow">
-        <h3 class="py-3 text-center">specialized Home Care</h3>
-        <p class="small-p">If your loved one needs distinct care, we offer specialized home care
-            services...
-        </p>
-        <a class="services-link" href="#">Learn More</a>
-    </div>
-</div>
-
-<div class="row pb-5 justify-content-center">
-    <div class="col-lg-3 col-10 box-shadow ">
-        <img src="assets/images/housekeeping.jpg" style="width: 100%;" class="img-fluid" alt="Card image cap">
-    </div>
-    <div class="bg-light px-4 col-lg-5 col-10 box-shadow ">
-        <h3 class="py-3 text-center">Light Housekeeping</h3>
-        <p class="small-p">
-            Light housekeeping includes tasks such as dusting open surfaces, sweeping and mopping
-            floors...
-        </p>
-        <a class="services-link" href="#">Learn More</a>
-    </div>
-</div>
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        Launch demo modal
+    </button> -->
 
 
 
+    <section>
+		<div class="container">
+			 <div class="row pb-5 justify-content-center">
+				<div class="col-10 col-lg-8">
+					<h2 class="heading py-3">Contact Us</h2>
+					<img src="assets/images/contact-main-pic.png" style="width: 100%;"
+						class="img-fluid mx-auto main-img box-shadow " alt="Responsive image">
+				</div>
+			</div> 
+			<div class="row  pb-5 justify-content-center" id="get-in-touch">
+				<div class="col-10 col-lg-8 contact-bg pb-4">
+					<h3 class="text-center pt-3">Get In Touch</h3>
+					<hr>
+					<form onsubmit="return sendContactForm(this)" class="p-3">
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="first-name">First name</label>
+								<input type="text" name="name" class="form-control" placeholder="First name"
+									id="first-name" required />
+							</div>
+							<div class="form-group col-md-6">
+								<label for="emailaddress">Last name</label>
+								<input type="text" name="lastname" class="form-control" placeholder="Last name"
+									id="emailaddress" required />
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputEmail4">Email</label>
+								<input type="email" name="email" class="form-control" id="inputEmail4"
+									placeholder="Email">
+							</div>
+							<div class="form-group col-md-6">
+								<label for="phone-number">Telephone</label>
+								<input type="text" name="phone" class="form-control" id="phone-number"
+									placeholder="Phone Number" required />
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-12">
+								<label for="inputAddress">Address</label>
+								<input type="text" name="address" class="form-control" id="inputAddress"
+									placeholder="1234 Main St">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-12">
+								<label for="message">Message</label>
+								<textarea name="message" class="form-control" id="message" rows="3"></textarea>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-5">
+								<label for="service">Type Of Service</label>
+								<select id="service" class="form-control" name="service">
+									<option selected>Companion Care</option>
+									<option>personal Care</option>
+									<option>Specialized Care</option>
+									<option>Light Housekeeping</option>
+									<option>Other</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-12">
+								<button type="submit" class="btn w-100 submit-contact-form-btn">Submit</button>
+							</div>
+						</div>
+
+					</form>
 
 
+				</div>
+			</div>
+		</div>
+	</section>  
+
+    <section>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-10 col-lg-8">
+					<div class="row justify-content-center align-items-center mb-5 contact-info">
+						<div class="col-10 col-md-5 py-3 py-md-4">
+							<h3>Contact information</h3><br>
+							<div id="contact-links">
+								<a rel="noopener" href="tel:+49051139493973"><i class="fas fa-mobile-alt"></i> Tel:
+									(+49)
+									51139493973
+								</a><br>
+								<a rel="noopener" href="tel:+49051139493973"><i class="fas fa-fax"></i> Fax: 0511- 39 49
+									39
+									74
+								</a><br>
+								<a rel="noopener" href="#" target="_blank"><i class="far fa-envelope"></i>Email:
+									info@pflegedienst-lilien.de</a> <br><br>
+								<h5 class="text-left"> Podbielskistr .189<br> 30177 Hannover<br> Germany</h5>
+							</div>
+						</div>
+						<div class="col-10 col-md-5 py-3 py-md-4">
+							<div id="map"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <footer class="footer">
+		<div class="container text-center">
+			<span>&copy; Copyright 2021 OUTPATIENT NURSING SERVICES LILIEN</span>
+		</div>
+	</footer>
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
+    integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
+    integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
 
+<script src="assets/js/animate.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/sendEmail.js"></script>
 
-
-
-
-
-
+</body>
+</html>
 
 

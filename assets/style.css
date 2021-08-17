@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Source+Sans+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;400&family=Source+Sans+Pro:wght@300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,6 @@
 
 html {
   min-width: fit-content;
-  overflow-x: hidden;
 }
 
 body {
@@ -41,7 +40,7 @@ body {
 p {
   font-weight: 400;
   font-size: calc(1rem + 0.4vmin);
-  line-height: 1.8;
+  line-height: 1.9;
   margin-bottom: 0;
   text-align: justify;
 }
@@ -101,7 +100,7 @@ h3 {
   font-weight: 400;
   letter-spacing: 1px;
   text-transform: capitalize;
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #1a1a16;
   margin-bottom: 0;
 }
@@ -136,7 +135,7 @@ h3 {
   font-size: calc(0.4rem + 0.4vmin);
   letter-spacing: 3px;
   list-style-type: none;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
 }
 

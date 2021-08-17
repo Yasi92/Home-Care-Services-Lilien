@@ -53,119 +53,133 @@
 	</header>
 
 
-
+ 
 	<section>
-		<div class="row pb-5 justify-content-center">
-			<div class="col-10 col-lg-8">
-				<h2 class="heading py-3">Contact Us</h2>
-				<img src="assets/images/contact-main-pic.png" style="width: 100%;"
-					class="img-fluid mx-auto main-img box-shadow " alt="Responsive image">
+		<div class="container">
+			<div class="row pb-5 justify-content-center">
+				<div class="col-10 col-lg-8">
+					<h2 class="heading py-3">Contact Us</h2>
+					<img src="assets/images/contact-main-pic.png" style="width: 100%;"
+						class="img-fluid mx-auto main-img box-shadow " alt="Responsive image">
+				</div>
+			</div>
+			<div class="row  pb-5 justify-content-center" id="get-in-touch">
+				<div class="col-10 col-lg-8 contact-bg pb-4">
+					<h3 class="text-center pt-3">Get In Touch</h3>
+					<hr>
+					<form onsubmit="return sendContactForm(this)" class="p-3">
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="first-name">First name</label>
+								<input type="text" name="name" class="form-control" placeholder="First name"
+									id="first-name" required />
+							</div>
+							<div class="form-group col-md-6">
+								<label for="emailaddress">Last name</label>
+								<input type="text" name="lastname" class="form-control" placeholder="Last name"
+									id="emailaddress" required />
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputEmail4">Email</label>
+								<input type="email" name="email" class="form-control" id="inputEmail4"
+									placeholder="Email">
+							</div>
+							<div class="form-group col-md-6">
+								<label for="phone-number">Telephone</label>
+								<input type="text" name="phone" class="form-control" id="phone-number"
+									placeholder="Phone Number" required />
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-12">
+								<label for="inputAddress">Address</label>
+								<input type="text" name="address" class="form-control" id="inputAddress"
+									placeholder="1234 Main St">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-12">
+								<label for="message">Message</label>
+								<textarea name="message" class="form-control" id="message" rows="3"></textarea>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-5">
+								<label for="service">Type Of Service</label>
+								<select id="service" class="form-control" name="service">
+									<option selected>Companion Care</option>
+									<option>personal Care</option>
+									<option>Specialized Care</option>
+									<option>Light Housekeeping</option>
+									<option>Other</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-12">
+								<button type="submit" class="btn w-100 submit-contact-form-btn">Submit</button>
+							</div>
+						</div>
+
+					</form>
+
+
+				</div>
 			</div>
 		</div>
-		<div class="row  pb-5 justify-content-center" id="get-in-touch">
-			<div class="col-10 col-lg-8 contact-bg pb-4">
-				<h3 class="text-center pt-3">Get In Touch</h3>
-				<hr>
-				<form onsubmit="return sendContactForm(this)" class="p-3">
-					<div class="form-row">
-						<div class="form-group col-md-6">
-							<label for="first-name">First name</label>
-							<input type="text" name="name" class="form-control" placeholder="First name" id="first-name"
-								required />
-						</div>
-						<div class="form-group col-md-6">
-							<label for="emailaddress">Last name</label>
-							<input type="text" name="lastname" class="form-control" placeholder="Last name"
-								id="emailaddress" required />
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col-md-6">
-							<label for="inputEmail4">Email</label>
-							<input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email">
-						</div>
-						<div class="form-group col-md-6">
-							<label for="phone-number">Telephone</label>
-							<input type="text" name="phone" class="form-control" id="phone-number"
-								placeholder="Phone Number" required />
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col-12">
-							<label for="inputAddress">Address</label>
-							<input type="text" name="address" class="form-control" id="inputAddress"
-								placeholder="1234 Main St">
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col-12">
-							<label for="message">Message</label>
-							<textarea name="message" class="form-control" id="message" rows="3"></textarea>
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col-md-5">
-							<label for="service">Type Of Service</label>
-							<select id="service" class="form-control" name="service">
-								<option selected>Companion Care</option>
-								<option>personal Care</option>
-								<option>Specialized Care</option>
-								<option>Light Housekeeping</option>
-								<option>Other</option>
-							</select>
-						</div>
-					</div>
-					<div class="form-row">
-						<div class="form-group col-12">
-							<button type="submit" class="btn w-100 submit-contact-form-btn">Submit</button>
-						</div>
-					</div>
-	
-				</form>
-
-
-			</div>
-		</div>
-	</section>
+	</section> 
 
 	<section>
-		<div class="row justify-content-center">
-			<div class="col-10 col-lg-8">
-				<div class="row justify-content-center align-items-center mb-5 contact-info">
-					<div class="col-10 col-md-5 py-3 py-md-4">
-						<h3>Contact information</h3><br>
-						<div id="contact-links">
-							<a rel="noopener" href="tel:+49051139493973"><i class="fas fa-mobile-alt"></i> Tel: (+49)
-								51139493973
-							</a><br>
-							<a rel="noopener" href="tel:+49051139493973"><i class="fas fa-fax"></i> Fax: 0511- 39 49 39
-								74
-							</a><br>
-							<a rel="noopener" href="#" target="_blank"><i class="far fa-envelope"></i>Email:
-								info@pflegedienst-lilien.de</a> <br><br>
-							<h5 class="text-left"> Podbielskistr .189<br> 30177 Hannover<br> Germany</h5>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-10 col-lg-8">
+					<div class="row justify-content-center align-items-center mb-5 contact-info">
+						<div class="col-10 col-md-5 py-3 py-md-4">
+							<h3>Contact information</h3><br>
+							<div id="contact-links">
+								<a rel="noopener" href="tel:+49051139493973"><i class="fas fa-mobile-alt"></i> Tel:
+									(+49)
+									51139493973
+								</a><br>
+								<a rel="noopener" href="tel:+49051139493973"><i class="fas fa-fax"></i> Fax: 0511- 39 49
+									39
+									74
+								</a><br>
+								<a rel="noopener" href="#" target="_blank"><i class="far fa-envelope"></i>Email:
+									info@pflegedienst-lilien.de</a> <br><br>
+								<h5 class="text-left"> Podbielskistr .189<br> 30177 Hannover<br> Germany</h5>
+							</div>
 						</div>
-					</div>
-					<div class="col-10 col-md-5 py-3 py-md-4">
-						<div id="map"></div>
+						<div class="col-10 col-md-5 py-3 py-md-4">
+							<div id="map"></div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
+			  <!-- Button trigger modal -->
+			  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+				Launch demo modal
+			  </button>
 
+			  
 	<footer class="footer">
 		<div class="container text-center">
 			<span>&copy; Copyright 2021 OUTPATIENT NURSING SERVICES LILIEN</span>
 		</div>
 	</footer>
 
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 		  <div class="modal-content">
 			<div class="modal-header">
-			  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+			  <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
 			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
 			  </button>
@@ -179,8 +193,8 @@
 			</div>
 		  </div>
 		</div>
-	</div>
-
+	  </div>
+  
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"

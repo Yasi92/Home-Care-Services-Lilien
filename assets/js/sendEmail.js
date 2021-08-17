@@ -51,7 +51,8 @@ function sendContactForm(contactForm) {
         
 
         function modalFunc() {
-            $('#myModal').modal('show'); 
+            
+            $('#exampleModalCenter').modal('show')
          }
 
          modalFunc();

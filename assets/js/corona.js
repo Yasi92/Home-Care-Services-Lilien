@@ -95,13 +95,14 @@ gsap.from("#covid-news", {
     scrollTrigger: {
         trigger: "#covid-news",
         start: "bottom 90%",
-        toggleActions: "restart none none play"
+        toggleActions: "restart none none play",
+        once: true
     },
 
     autoAlpha: 0,
     duration: 3,
     ease: "back",
-    z: 300,
+    z: -100,
     duration: 4,
     opacity: 0,
     scale: 1,
@@ -114,12 +115,13 @@ gsap.from("#covid-stats", {
     scrollTrigger: {
         trigger: "#covid-stats",
         start: "top 90%",
-        toggleActions: "restart none none play"
+        toggleActions: "restart none none play",
+        once: true
     },
     autoAlpha: 0,
     duration: 3,
     ease: "back",
-    z: -300,
+    z: 100,
     duration: 4,
     opacity: 0,
     scale: 1,

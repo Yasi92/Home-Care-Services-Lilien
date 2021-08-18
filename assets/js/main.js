@@ -54,13 +54,7 @@ $(".services-link").on('click', function (event) {
     $(text).fadeIn('slow');
     $(clToggle).toggleClass('col-lg-9');
     $(shortDescription).hide();
-    // $(this).hide()
-    // $(".service-desc").fadeIn('slow');
-    // $('.col-toggle').toggleClass('col-lg-8 col-10');
-    // console.log($(this));
-
-
-
+ 
 });
 
 

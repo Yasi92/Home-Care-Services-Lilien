@@ -1,13 +1,13 @@
 // The method has been learned from this tutorial video on youtube "https://www.youtube.com/watch?v=uxf0--uiX0I&t=1s"
 async function getData() {
 
-    const response = await fetch("https://covid-19-data.p.rapidapi.com/country?name=germany&format=json", {
-        "method": "GET",
-        "headers": {
-            "x-rapidapi-key": "c627d0f2d2msh9ba409e5b8c495dp17c448jsn5469ec3ad079",
-            "x-rapidapi-host": "covid-19-data.p.rapidapi.com"
-        }
-    });
+    // const response = await fetch("https://covid-19-data.p.rapidapi.com/country?name=germany&format=json", {
+    //     "method": "GET",
+    //     "headers": {
+    //         "x-rapidapi-key": "c627d0f2d2msh9ba409e5b8c495dp17c448jsn5469ec3ad079",
+    //         "x-rapidapi-host": "covid-19-data.p.rapidapi.com"
+    //     }
+    // });
 
     const data = await response.json();
     const options = await data[0];

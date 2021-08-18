@@ -55,7 +55,7 @@ p {
   font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 0;
-  text-align: justify;
+  text-align: left;
 }
 
 h1,
@@ -79,6 +79,11 @@ h3 {
 
 h4 {
   font-size: calc(1rem + 0.5vmin);
+  line-height: 1.8rem;
+}
+
+h6 {
+  font-size: 1.2rem;
 }
 
 a {
@@ -87,6 +92,7 @@ a {
   text-align: center;
   font-family: "Mukta", sans-serif;
   font-weight: 400;
+  font-size: 1.2rem;
 }
 
 a:hover {
@@ -111,7 +117,7 @@ a:hover {
   font-size: 1.1rem;
 }
 
-#contact-links h5,
+#contact-links > h5,
 #contact-links > a {
   text-align: left;
 }
@@ -208,6 +214,10 @@ a:hover {
   border-color: #AF70C2;
 }
 
+.card-footer {
+  background-color: #fff;
+}
+
 /* /////////////////////////////////// containers///////////////////////////////////  */
 .container {
   padding-left: 0;
@@ -215,7 +225,6 @@ a:hover {
 }
 
 .col-lg-4,
-.col-md-4,
 .row {
   margin-right: 0;
   margin-left: 0;
@@ -240,6 +249,10 @@ a:hover {
   padding-bottom: 1.5rem;
 }
 
+.list-group {
+  width: 100%;
+}
+
 /* /////////////////////////////////// flip cards///////////////////////////////////  */
 :root {
   --time: 0.707s;
@@ -253,14 +266,14 @@ a:hover {
   perspective: 40rem;
 }
 
-.card {
+.card-flip {
   perspective: 40rem;
   -webkit-perspective: 40rem;
   -o-perspective: 40rem;
   -moz-perspective: 40rem;
 }
 
-.card-body {
+.card-body-flip {
   display: flex;
   transform-style: preserve-3d;
   transition: var(--time) transform;
@@ -272,7 +285,7 @@ a:hover {
   -moz-transform-style: preserve-3d;
 }
 
-.card.flipped .card-body {
+.card-flip.flipped .card-body-flip {
   transform: rotateX(-180deg);
   -webkit-transform: rotateX(-180deg);
   -o-transform: rotateX(-180deg);
@@ -305,7 +318,7 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
-.card {
+.card-flip {
   display: flex;
   transition: z-index, transform calc(var(--time) / 4);
   transition-delay: var(--time), 0s;
@@ -322,7 +335,7 @@ a:hover {
   z-index: 0;
 }
 
-.card-body {
+.card-body-flip {
   border-radius: 0.25rem;
   flex: 1;
 }
@@ -488,6 +501,10 @@ footer {
     position: static;
   }
 
+  .services-link {
+    margin-bottom: 1rem;
+  }
+
   p {
     font-size: calc(1rem + 0.7vmin);
   }
@@ -497,6 +514,10 @@ footer {
   }
 
   .team-content {
+    text-align: center;
+  }
+
+  #contact-links, #contact-links h5 {
     text-align: center;
   }
 
@@ -535,7 +556,7 @@ footer {
     font-size: 1rem;
   }
 
-  .contact-info {
+  .contact-info h3, .contact-info h5, .contact-info a {
     text-align: center;
   }
 
@@ -559,11 +580,6 @@ footer {
     padding: 1rem;
   }
 
-  #contact-links h5,
-#contact-links > a {
-    text-align: center;
-  }
-
   #myBtn {
     bottom: 5em;
     right: 0;
@@ -571,11 +587,11 @@ footer {
     font-size: 1em;
   }
 
-  .card-body {
+  .card-body-flip {
     padding: 0;
   }
 
-  .cards > .card:first-child {
+  .cards > .card-flip:first-child {
     margin-bottom: 1rem;
   }
 

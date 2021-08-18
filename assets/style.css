@@ -12,8 +12,6 @@ html {
 body {
   font-family: "Nunito Sans", sans-serif;
   background-color: #EAE8ED;
-  perspective: 40rem;
-  -webkit-perspective: 40rem;
 }
 
 .main-img {
@@ -222,6 +220,10 @@ a:hover {
 .container {
   padding-left: 0;
   padding-right: 0;
+  perspective: 70rem;
+  -webkit-perspective: 70rem;
+  -moz-perspective: 70rem;
+  -o-perspective: 70rem;
 }
 
 .col-lg-4,
@@ -366,7 +368,7 @@ a:hover {
   position: fixed;
   bottom: 3.5em;
   right: 0;
-  z-index: 99;
+  z-index: 999;
   font-size: 1.2em;
   border: none;
   outline: none;

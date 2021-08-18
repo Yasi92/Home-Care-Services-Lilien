@@ -109,7 +109,7 @@ a:hover {
 }
 
 .services-link {
-  color: #6227c0;
+  color: #500966;
   text-decoration: underline;
   text-align: center;
   font-size: 1.1rem;
@@ -309,7 +309,7 @@ a:hover {
   -moz-transform: rotateX(180deg) translate(-100%, 0);
   -webkit-transform: rotateX(180deg) translate(-100%, 0);
   -o-transform: rotateX(180deg) translate(-100%, 0);
-  background-color: #c2edf3;
+  background-color: #BCDADD;
 }
 
 .cards {
@@ -372,7 +372,7 @@ a:hover {
   font-size: 1.2em;
   border: none;
   outline: none;
-  background-color: rgba(60, 3, 107, 0.7);
+  background-color: #500966;
   color: white;
   cursor: pointer;
   padding: 0.5em;
@@ -380,7 +380,7 @@ a:hover {
 }
 
 #myBtn:hover {
-  background-color: #d3a6ec;
+  background-color: rgba(80, 9, 102, 0.7);
 }
 
 .team-content {

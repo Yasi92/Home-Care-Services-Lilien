@@ -1,28 +1,23 @@
 # Maryam Abdolbeigi
 
-## Home Care Services Lilien
+## Lilien Home Care Services 
 
-This is the website of the outpatient nursing service in Hannover. 
+This is the website for the Lilien Home Care Services in Hannover. 
 The idea to create this website is to improve the existing website in wordpress, however, this version was not inspired by the old version in any way but in terms of content and site material.          
 My goal to create this website is twofold, educational and commercial, and I tried to meet most expectations in both aspects.
 
 ## UX
 ---
-
-
-This website gives an overview of the outpatient nursing service in Hannover. The main information is divided into 4 different pages, which are easily accessible and clearly arranged to make the information intuitive and simple.
-
-
-
-
+This website gives an overview of the Lilien Home Care Services in Hannover. The main information is divided into 4 different pages, which are easily accessible and clearly arranged to make the information intuitive and simple.
+The website is quite interactive meaning that it responds to the user's actions.
 
 ### The business objectives of this website are:
 
 - Make the brand known and the company virtually accessible.
 - Inform users about the company and the services it offers.
-- Allow users to contact the company via a form, email or phone call.
+- Allow users to contact the company by filling out and submitting form, sending email or phone call.
 - Allow users to conveniently find the location and directions.
-- Receive emails and forms from potential employees interested in working for the company.
+- Receive emails and forms from potential employees interested in job offers from the company.
 - Provide some particularly interesting news and updates related to Covid-19's situation and statics in the country.
 - Provide information about the team.
 
@@ -51,12 +46,10 @@ Lives in Hanover and in needs of home care services.
 - The website is quite intuitive and easy to work with.
 
 
-
-
 ### User Stories:
 
 1. As a first time visitor, I want to know more in detail about this particular company.
-2. As a first time visitor, I want to know what types of service this company can offer.
+2. As a first time visitor, I want to know what types of service this company has to offer.
 3. As a first time visitor, I want to send them a query by sending an email.
 4. As a potential employee, I want to apply for a job and send them my CV.
 5. As a first time visitor, I want to know if my needs match the types of the services they offer.
@@ -70,56 +63,39 @@ Lives in Hanover and in needs of home care services.
 1. Desktop
 ![Desktop Mockups]
 - [Home.pdf]
-- [Menu.pdf]
-- [Gallery.pdf]
+- [services.pdf]
+- [job.pdf]
+- [contact.pdf]
 
 2. Ipad
 ![Ipad Mockups] 
 - [Home.pdf]
-- [Menu.pdf]
-- [Gallery.pdf]
-
+- [services.pdf]
+- [job.pdf]
+- [contact.pdf]
  
 3. Mobile 
 ![Mobile Mockups]
 - [Home.pdf]
-- [Menu.pdf]
-- [Gallery.pdf]
+- [services.pdf]
+- [job.pdf]
+- [contact.pdf]
+
+
 ## Features-
 ### Existing Features
 
 
 * #### Design in Depth
-     *
-     ![color theme](README-assets/screenshots/color.theme.png)
+     * The color theme of the website has been inspired by the company name which means Liliy in German. The main and most used color theme is from the purple spectrum with a combination of other cold and relaxing colors.
+     ![color theme](Readme-assets/img/color-theme.png)
 
-     *In this project, an attempt was made to adapt the style and design as much as possible to the nature of the company's services.
+
 
      * The font families used in this project are:
-          * Roboto for the body text and other elements.
-          * Lato for the headlines and logo.
+          * 'Nunito Sans' for the body text and other elements.
+          * 'Mukta' for the headlines and navigation links.
           * Sans-serif for the fallback font.
-
-
-
-
-
-                        
-
-
-
-
-  
-    
-
-
-
-
-
-
-
-
-
 
 
 
@@ -135,7 +111,7 @@ Lives in Hanover and in needs of home care services.
 
 ### Languages
 - HTML5
-- CSS3
+- SCSS
 - JavaScript
 
 ### IDE
@@ -143,6 +119,30 @@ Lives in Hanover and in needs of home care services.
 
 ### Frameworks, Libraries, CDN's, resources:
 
+
+1. [Bootstrapv4.5.3](https://getbootstrap.com/) 
+2. [Balsamiq](https://balsamiq.com/wireframes/)
+3. [GitHub](https://github.com/)
+4. [Git](https://git-scm.com/)
+5. [FontAwesome](https://fontawesome.com/start)
+6. [Google Fonts](https://fonts.google.com/)
+7. [Chrome Developer Tools:](https://developer.chrome.com/docs/devtools/)
+8. [Ami Responsive](http://ami.responsivedesign.is/)
+9. [HTMLValidationService](https://validator.w3.org/)
+10. [CSSValidationService](https://validator.w3.org/)
+11. [Coolors.co](https://coolors.co/eae8ed-bcdadd-b3d1bb-62a9af-af70c2-500966)
+12. [Unicorn Revealer Extention](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
+13. [GreenSock](https://greensock.com/gsap/)
+14. [Java Tutor](http://pythontutor.com/java.html#mode=edit)
+15. [w3schools](https://www.w3schools/)
+16. [jQuery](https://jquery.com/)
+17. [RapidAPI](https://rapidapi.com/collection/list-of-free-apis)
+18. [EmailJS](https://www.emailjs.com/)
+19. [Google maps API](https://console.cloud.google.com/google/maps-apis/)
+20. [Pexels](https://www.pexels.com/nl-nl/)
+21. [Pinterest](https://nl.pinterest.com/)
+22. [favicon.io](https://favicon.io/)
+23. []()
 
 
 ## Testing
@@ -178,7 +178,7 @@ This is used to make changes to the project code.
 5. Now change the current working directory to the location you'd like the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied from the remote repository.
 
-`$ git clone https://github.com/Yasi92/Buno-coffee-project.git`
+`$ git clone https://github.com/Yasi92/Home-Care-Services-Lilien.git`
 
 ### Author 
 

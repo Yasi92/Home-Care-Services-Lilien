@@ -70,9 +70,9 @@ $(".back-btn").on('click', function (event) {
 
     console.log(shortDescription);
     $(text).hide()
-    $(image).show();
-    $(link).show();
-    $(shortDescription).show();
+    $(image).fadeIn('slow');
+    $(link).fadeIn('slow');
+    $(shortDescription).fadeIn('slow');
     $(clToggle).removeClass('col-lg-9');
 });
 

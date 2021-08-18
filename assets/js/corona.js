@@ -20,8 +20,6 @@ async function getData() {
         lastUpdate
     } = options;
 
-
-
     document.getElementById('country').textContent = country;
     document.getElementById('confirmed').textContent = confirmed;
     document.getElementById('death').textContent = deaths;
@@ -30,7 +28,6 @@ async function getData() {
 }
 
 getData();
-
 
 
 
@@ -88,6 +85,7 @@ getNewsData();
 
 
 
+//  all animations in this project including below, are learned from gsap learning center "https://greensock.com/gsap/"
 gsap.registerPlugin(ScrollTrigger);
 
 

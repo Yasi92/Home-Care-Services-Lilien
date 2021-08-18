@@ -1,37 +1,37 @@
 
-
 $('#corona-news').hide();
 $('#stats-data').hide();
 
-
+// it opens the corona news' columns on click 
 $('#corona-btn').click(function () {
     $('#corona-news').slideToggle('slow');
 
 });
 
+
+// it opens the corona stats' columns on click 
 $('#stats-btn').click(function () {
     $('#stats-data').slideToggle('slow');
 
 });
 
 
+// it flips the cards on job.html on click
 $('.job-int-btn').click(function (event) {
     let card = event.target.parentElement.parentElement.parentElement;
 
     $(card).toggleClass('flipped');
     console.log(card);
 
-    // $(this).toggleClass('flipped');
 });
 
-
+// it flips the cards back on job.html on click back
 $('.back-job-btn').click(function (event) {
     let card = event.target.parentElement.parentElement.parentElement.parentElement;
 
     $(card).toggleClass('flipped');
     console.log(card);
 
-    // $(this).toggleClass('flipped');
 });
 
 
@@ -39,6 +39,7 @@ $('.back-job-btn').click(function (event) {
 
 $(".service-desc").hide();
 
+// it expands the services descriptions on click on learn more links
 $(".services-link").on('click', function (event) {
 
     let button = event.target;
@@ -46,8 +47,6 @@ $(".services-link").on('click', function (event) {
     let text = event.target.parentElement.nextElementSibling;
     let clToggle = event.target.parentElement.parentElement;
     let image = event.target.parentElement.parentElement.previousElementSibling;
-
-
 
     $(button).hide();
     $(image).hide();
@@ -59,7 +58,7 @@ $(".services-link").on('click', function (event) {
 
 
 
-
+// it reverts the services rows to compact state on click on back button
 $(".back-btn").on('click', function (event) {
 
 
@@ -75,17 +74,12 @@ $(".back-btn").on('click', function (event) {
     $(link).show();
     $(shortDescription).show();
     $(clToggle).removeClass('col-lg-9');
-
-
-    // $(".service-desc").hide();
-    // $('.service-short-desc > p, h5, .services-img').show();
-    // $('.col-toggle').removeClass('col-lg-8 col-10');
 });
 
 
 
-
 //Back to top button
+// the back-to-top button has been taken from my last project  "buno-coffee-project"
 var mybutton = document.getElementById("myBtn");
 window.onscroll = function () {
     scrollFunction()

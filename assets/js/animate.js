@@ -1,3 +1,5 @@
+//  all animations in this project including below, are learned from gsap learning center "https://greensock.com/gsap/"
+
 document.addEventListener("DOMContentLoaded", function(event) {
 window.onload = function(){
     
@@ -36,7 +38,7 @@ gsap.from(".nav-item", {
 }
 
 
-
+// it enables the animation effect on navbar links only on the given size and so that it kills the animation on nav links when toggled to a hamburger menu
 if ($(window).width() > 768) {
     navAnimation();
   }

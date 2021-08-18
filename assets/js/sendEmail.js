@@ -2,7 +2,7 @@
 ///// Sending job forms from job.html
 
 function sendMail(contactForm) {
-    emailjs.send("service_xji66q5","template_h8j6n8q", {
+    emailjs.send("service_xji66q5", "template_h8j6n8q", {
             "first-name": contactForm.name.value,
             "last-name": contactForm.lastname.value,
             "email": contactForm.email.value,
@@ -17,15 +17,16 @@ function sendMail(contactForm) {
             },
             function (error) {
                 console.log("FAILED", error);
+                alert('Oops! Something went wrong, please try later');
             })
-            
-            function modalFunc() {
-            
-                $('#myModalJob').modal('show')
-             };
-    
-             modalFunc();
-                     
+    // the modal opens up on submit form
+    function modalFunc() {
+
+        $('#myModalJob').modal('show')
+    };
+
+    modalFunc();
+
     return false;
 }
 
@@ -35,7 +36,7 @@ function sendMail(contactForm) {
 
 ///// Sending contact forms from contact.html
 function sendContactForm(contactForm) {
-    emailjs.send("service_xji66q5","template_js8cnn7", {
+    emailjs.send("service_xji66q5", "template_js8cnn7", {
             "first-name": contactForm.name.value,
             "last-name": contactForm.lastname.value,
             "email": contactForm.email.value,
@@ -51,23 +52,18 @@ function sendContactForm(contactForm) {
             },
             function (error) {
                 console.log("FAILED", error);
+                alert('Oops! Something went wrong, please try later');
             }
         )
-        
 
-        function modalFunc() {
-            
-            $('#myModal').modal('show')
-         }
+    // the modal opens up on submit form
+    function modalFunc() {
 
-         modalFunc();
-         
+        $('#myModal').modal('show')
+    }
+    modalFunc();
+
     return false;
-    
+
 
 };
-
-
-
-
-

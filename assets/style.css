@@ -12,6 +12,8 @@ html {
 body {
   font-family: "Nunito Sans", sans-serif;
   background-color: #EAE8ED;
+  perspective: 40rem;
+  -webkit-perspective: 40rem;
 }
 
 .main-img {
@@ -220,10 +222,6 @@ a:hover {
 .container {
   padding-left: 0;
   padding-right: 0;
-  perspective: 70rem;
-  -webkit-perspective: 70rem;
-  -moz-perspective: 70rem;
-  -o-perspective: 70rem;
 }
 
 .col-lg-4,
@@ -538,6 +536,20 @@ footer {
     top: 80%;
     min-width: 80%;
   }
+
+  .cards {
+    display: block;
+    grid-gap: 0;
+    padding: 1rem;
+  }
+
+  .card-body-flip {
+    padding: 0;
+  }
+
+  .cards > .card-flip:first-child {
+    margin-bottom: 1rem;
+  }
 }
 /* /////////////////////////////////// mobile design ///////////////////////////////////  */
 @media screen and (max-width: 576px) {
@@ -576,25 +588,11 @@ footer {
     margin: 0;
   }
 
-  .cards {
-    display: block;
-    grid-gap: 0;
-    padding: 1rem;
-  }
-
   #myBtn {
     bottom: 5em;
     right: 0;
     z-index: 99;
     font-size: 1em;
-  }
-
-  .card-body-flip {
-    padding: 0;
-  }
-
-  .cards > .card-flip:first-child {
-    margin-bottom: 1rem;
   }
 
   .modal-1 {

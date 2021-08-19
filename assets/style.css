@@ -12,8 +12,10 @@ html {
 body {
   font-family: "Nunito Sans", sans-serif;
   background-color: #EAE8ED;
-  perspective: 40rem;
-  -webkit-perspective: 40rem;
+  perspective: 50rem;
+  -webkit-perspective: 50rem;
+  -moz-perspective: 50rem;
+  -moz-perspective: 50rem;
 }
 
 .main-img {
@@ -283,6 +285,7 @@ a:hover {
   -webkit-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
+  max-width: 100%;
 }
 
 .card-flip.flipped .card-body-flip {

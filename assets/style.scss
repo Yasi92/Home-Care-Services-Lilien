@@ -14,10 +14,7 @@ body {
 
   font-family: 'Nunito Sans', sans-serif;
   background-color: #EAE8ED;
-  perspective: 50rem;
-  -webkit-perspective: 50rem;
-  -moz-perspective: 50rem;
-  -moz-perspective: 50rem;
+ 
  
 }
 
@@ -229,7 +226,10 @@ a:hover {
 .container {
   padding-left: 0;
   padding-right: 0;
-  
+  perspective: 50rem;
+  -webkit-perspective: 50rem;
+  -moz-perspective: 50rem;
+  -moz-perspective: 50rem;
 
 }
 
@@ -251,6 +251,12 @@ a:hover {
 
 }
 
+.welcome-txt{
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 1px 1px 8px #ffffff;
+  
+}
+
 #map {
   height: 23em;
   width: 100%;
@@ -263,6 +269,16 @@ a:hover {
 
 .list-group{
   width: 100%;
+}
+
+.card {
+  border: none;
+}
+
+
+.stats-bg{
+  background-color: #AF70C2;
+  padding: 1.5rem;
 }
 /* /////////////////////////////////// flip cards///////////////////////////////////  */
 
@@ -314,6 +330,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   -o-backface-visibility: hidden;
   min-width: 100%;
+  background-color:#fff;
 }
 
 .card-back {

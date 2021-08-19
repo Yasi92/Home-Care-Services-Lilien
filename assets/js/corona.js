@@ -61,7 +61,7 @@ async function getNewsData() {
 
 
         ul +=
-            `<div class=" d-flex px-3 col-12 col-md-6 py-3 py-md-4">
+            `<div class=" d-flex px-4 col-12 col-md-6 py-3 py-md-4">
                <div class="card"> 
                     <div class="card-body d-flex align-items-start flex-column text-left"> 
                         <h5 class="card-title text-left">` + titles + '</h5>' +  '<hr>' +                  

@@ -577,6 +577,14 @@ footer {
     text-align: center;
   }
 
+  .list-group h5 {
+    font-size: 1rem;
+  }
+
+  .list-group-item {
+    padding: 0.75rem 0.5rem;
+  }
+
   .navbar-toggler {
     position: absolute;
     right: 1rem;

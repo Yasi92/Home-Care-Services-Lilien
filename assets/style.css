@@ -467,7 +467,7 @@ a:hover {
 
 .modal-2 {
   position: absolute;
-  top: 85%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   min-width: 500px;

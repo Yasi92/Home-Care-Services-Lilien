@@ -3,17 +3,26 @@ $('#corona-news').hide();
 $('#stats-data').hide();
 
 // it opens the corona news' columns on click 
-$('#corona-btn').click(function () {
+$('#corona-btn').click(function (event) {
     $('#corona-news').slideToggle('slow');
+
+    event.target.textContent == 'Show More' ? event.target.textContent = 'Show Less' : event.target.textContent = 'Show More'; 
+    
 
 });
 
 
 // it opens the corona stats' columns on click 
-$('#stats-btn').click(function () {
+$('#stats-btn').click(function (event) {
     $('#stats-data').slideToggle('slow');
 
+    event.target.textContent == 'Show More' ? event.target.textContent = 'Show Less' : event.target.textContent = 'Show More'; 
+
 });
+
+
+
+
 
 
 // it flips the cards on job.html on click

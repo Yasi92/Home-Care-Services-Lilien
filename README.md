@@ -186,25 +186,39 @@ This is used to make changes to the project code.
 
 ## Credits
 
-- [Hover.CSS](http://ianlunn.github.io/Hover/)
+
 - [Stackoverflow](https://stackoverflow.com/)
-- [Animista.net](https://animista.net/play/basic/scale-up)
 - [w3schools](https://www.w3schools/howto/tryit.asp?filename=tryhow_js_scroll_to_top)
+- [GreenSock](https://greensock.com/gsap/)
 
 
 ## Content
 
-- All content on this website have been created by Dr.Mohsen Alizadeh and Lilien's team.
-
+- [Visiting Angels](https://www.visitingangels.com/) -    
+The content of services description has been taken from this link, only for educational purposes.
+- [pflegedienst-lilien](https://pflegedienst-lilien.de/)  -    
+The content of welcome text, team information, job description and contact info has been taken from the current website of Lilien Home Care Website.
+- [Coronavirus Smartable](https://rapidapi.com/SmartableAI/api/coronavirus-smartable/)    -
+The content of corona news has been taken from this API
+- [COVID-19 data](https://rapidapi.com/Gramzivi/api/covid-19-data/)    - 
+ The covid-19 statistics' data In Germany has been taken from this API
+ - [Google Map API](https://console.cloud.google.com/google/maps-apis/)   - 
+ The embeded map on the website is created by Google Map APIs
 
 ## Media
 - [The photots throughout the website were taken from](https://www.pexels.com/)
+- [Pinterest](https://nl.pinterest.com/)
+- [pflegedienst-lilien](https://pflegedienst-lilien.de/)
+
+
 
 ## Acknowledgements
 
 - Tutors at Code Institute for their continued support.
 - Code Institute's Slack community was a great help every step of the way during the project.
+- Stack Overflow.
 - My mentor Gurjot Singh.
+- Code Institute's Slack community was a great help every step of the way during the project.
 
 
 

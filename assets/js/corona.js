@@ -1,13 +1,13 @@
 // The method has been learned from this tutorial video on youtube "https://www.youtube.com/watch?v=uxf0--uiX0I&t=1s"
 async function getData() {
 
-    const response = await fetch("https://covid-19-data.p.rapidapi.com/country?name=germany&format=json", {
-        "method": "GET",
-        "headers": {
-            "x-rapidapi-key": "c627d0f2d2msh9ba409e5b8c495dp17c448jsn5469ec3ad079",
-            "x-rapidapi-host": "covid-19-data.p.rapidapi.com"
-        }
-    });
+    // const response = await fetch("https://covid-19-data.p.rapidapi.com/country?name=germany&format=json", {
+    //     "method": "GET",
+    //     "headers": {
+    //         "x-rapidapi-key": "c627d0f2d2msh9ba409e5b8c495dp17c448jsn5469ec3ad079",
+    //         "x-rapidapi-host": "covid-19-data.p.rapidapi.com"
+    //     }
+    // });
 
     const data = await response.json();
     const options = await data[0];
@@ -34,13 +34,13 @@ getData();
 
 async function getNewsData() {
 
-    const newsResponse = await fetch("https://coronavirus-smartable.p.rapidapi.com/news/v1/DE/", {
-        "method": "GET",
-        "headers": {
-            "x-rapidapi-key": "c627d0f2d2msh9ba409e5b8c495dp17c448jsn5469ec3ad079",
-            "x-rapidapi-host": "coronavirus-smartable.p.rapidapi.com"
-        }
-    });
+    // const newsResponse = await fetch("https://coronavirus-smartable.p.rapidapi.com/news/v1/DE/", {
+    //     "method": "GET",
+    //     "headers": {
+    //         "x-rapidapi-key": "c627d0f2d2msh9ba409e5b8c495dp17c448jsn5469ec3ad079",
+    //         "x-rapidapi-host": "coronavirus-smartable.p.rapidapi.com"
+    //     }
+    // });
 
     const dataNews = await newsResponse.json();
     console.log(dataNews.news);

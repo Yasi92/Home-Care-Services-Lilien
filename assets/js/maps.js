@@ -1,4 +1,4 @@
-calling google.map API and mebeding it into the project has been learned from code institute tutorial
+//calling google.map API and mebeding it into the project has been learned from code institute tutorial
 
 
 let map;

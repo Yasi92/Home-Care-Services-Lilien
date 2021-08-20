@@ -1,21 +1,21 @@
-//calling google.map API and mebeding it into the project has been learned from code institute tutorial
+calling google.map API and mebeding it into the project has been learned from code institute tutorial
 
 
-// let map;
+let map;
 
-// function initMap() {
+function initMap() {
  
-//     const uluru = { lat: 52.3994039, lng: 9.7777185 };
+    const uluru = { lat: 52.3994039, lng: 9.7777185 };
    
-//     const map = new google.maps.Map(document.getElementById("map"), {
-//       zoom: 9,
-//       center: uluru,
-//     });
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 9,
+      center: uluru,
+    });
    
-//     const marker = new google.maps.Marker({
-//       position: uluru,
-//       map: map,
-//     });
-//   }
+    const marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+    });
+  }
 
 

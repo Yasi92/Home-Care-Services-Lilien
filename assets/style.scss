@@ -358,12 +358,12 @@ a:hover {
 
 .card-flip {
   display: flex;
-  transition: z-index, transform calc(var(--time) / 4);
+  transition: z-index, transform calc(2s / 4);
   transition-delay: var(--time), 0s;
-  transition: z-index, transform calc(var(--time) / 4);
-  -webkit-transition: z-index, transform calc(var(--time) / 4);
-  -o-transition: z-index, transform calc(var(--time) / 4);
-  -moz-transition: z-index, transform calc(var(--time) / 4);
+  transition: z-index, transform calc(2s / 4);
+  -webkit-transition: z-index, transform calc(2s / 4);
+  -o-transition: z-index, transform calc(2s / 4);
+  -moz-transition: z-index, transform calc(2s / 4);
   transition-delay: var(--time), 0s;
   -webkit-transition-delay: var(--time), 0s;
   -o-transition-delay: var(--time), 0s;
@@ -511,7 +511,7 @@ a:hover {
 
 .modal-2 {
   position: absolute;
-  top: 75%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   min-width: 500px;
@@ -575,12 +575,10 @@ footer {
   }
 
   .modal-1 {
-    top: 50%;
     min-width: 80%;
   }
-
+  
   .modal-2 {
-    top: 80%;
     min-width: 80%;
   }
 
@@ -612,7 +610,7 @@ footer {
  If the perspective property was given to the body element, the back-to-top button would have not get the fixed position but the absolute position and, on the other hand if the perspective property was not given to 
  the body element, the cards would not flip on click on mobile view. */
 
- 
+
   .job-body{
     perspective: 40rem;
     -webkit-perspective: 40rem;
@@ -659,24 +657,11 @@ footer {
     margin: 0;
   }
 
-
- 
-
   #myBtn {
     bottom: 5em;
     right: 0;
     z-index: 99;
     font-size: 1em;
-  }
-
-
-
-  .modal-1 {
-    bottom: 30%;
-  }
-
-  .modal-2 {
-    bottom: 20%;
   }
 }
 

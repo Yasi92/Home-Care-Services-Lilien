@@ -20,10 +20,7 @@ $('#stats-btn').click(function (event) {
 });
 
 
-
-
-
-
+  
 // it flips the cards on job.html on click
 $('.job-int-btn').click(function (event) {
     let card = event.target.parentElement.parentElement.parentElement;
@@ -63,6 +60,8 @@ $(".services-link").on('click', function (event) {
     $(shortDescription).hide();
  
 });
+
+
 
 
 

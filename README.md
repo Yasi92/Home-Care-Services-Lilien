@@ -98,14 +98,87 @@ Lives in Hanover and in needs of home care services.
           * Sans-serif for the fallback font.
 
 
+![navigation bar](README-assets/img/)
+*   #### Navigation Bar     
+    * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Services, Job Offer and Contact page and is identical on each page to allow for easy navigation.
+    * On the window load, the navigation links slide in to make a smooth animation on every landing view.
+    * The animation will be disabled once the menu is collapsed to hamburger icon.
+    * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the back button.
+    * The navigation bar collapses from medium screen sizes to a hamburger icon, which unfolds to a navigation drawer when clicked.
+    * Clicking on the logo returns users to the home page as they would expect.
 
 
 
-  ### Yet To Be Implemented
+![landing page image and text ](README-assets/img)
+*  #### The landing page area   
+    * The landing area, grabs the user's attention by smooth scaling up from top of the window.
 
-  
 
 
+![Welcome Text](README-assets/img)
+* #### The welcome Text
+    * The welcome text is the second section on the home page and provides an overview of the company.
+
+
+
+
+![About Our Team](README-assets/img)
+* #### About Our Team
+    * "About our team" section provides information about the company's team and management.
+
+
+    ![contact information](README-assets/)
+* #### The section "contact information"    
+     * This section provides users with the contact information of the company.
+     * The corresponding icons are added to each of the contact paths, not only for design reasons, but also for a better UX experience and quick access.
+     * Each of the contact links opens in a new tab to allow easy navigation for the user.
+     * The Google map in this section is embedded for users to quickly and easily get directions to the location.
+     * To embed the map, the google map API is called.
+     * The two columns will be displayed in block levels on Ipad and mobile devices for responsiveness reasons.
+
+
+![Corona news](README-assets/img)
+* #### Covid-19 News 
+    * The section "covid-19 News" appears on the page once it enters to the viewport with an attractive animation.
+    * This section uses data from the "coronavirus-smartable" API from RapidAPI and it renders its data on separate cards created with bootstrap.
+    * Each card has a "read more button" that navigates the user to the corresponding news resource website in a new tab.
+    * The text on the "Show More" button will change to "Show Less" once the column is expanded and vice versa.
+
+
+
+
+![Corona stats](README-assets/img)
+* #### Covid-19 Statistics
+    * The section "covid-19 Statistics" appears on the page once it enters to the viewport with an attractive animation.
+    * This section uses data from the "covid-19 data" API from RapidAPI and it renders its data on a list group created with bootstrap.
+    * The text on the "Show More" button will change to "Show Less" once the column is expanded and vice versa.
+
+
+
+    ![Services Page](README-assets/img)
+* #### Menu page 
+ * The Services page categories different types of services in 4 separate sections.
+   * Each row appears to the window with a stagger and smooth animation.
+   * Once clicked on the "learn more" link, the layout of the section changes into the long description of each service in a smooth way.
+   * From the expanded description, the user can either navigate to the contact page by clicking on the "get in touch" button or go back to the initial layout by clicking on the back button.
+   * Each column will be displayed on a block-level on Ipad and mobile devices for responsiveness reasons.
+
+
+
+     ![Job Offer Page](README-assets/img)
+* #### Job Offer Page 
+ * On the job offer page, the user can find information about applying for a job.
+ * The information regarding requirements and prerequisites are divided into 2 cards.
+ * The user can see the text by clicking on the button on each card to flip the cards.
+ * The back button, will flip the cards into their front side.
+ * Each card appears on a block-level on iPad and mobile view for responsiveness reasons.
+
+
+
+
+* #### Application form 
+ * The application form allows users to fill out the form and send their message via email.
+ * Once the submit button is clicked, a modal opens into the viewport saying that the company will respond to their message in 4 working days, and this is to prevent the user from confusion with hesitating whether the form has been sent.
 
 ## Technologies Used
 
@@ -146,7 +219,7 @@ Lives in Hanover and in needs of home care services.
 
 
 ## Testing
-Testing information can be found in a separate [TESTING.md file](/TESTING.md)
+Testing information can be found in a separate [TESTING.md file](TESTING.md)
 ## Deployment
 
 ### Github

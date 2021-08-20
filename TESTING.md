@@ -6,46 +6,39 @@
 ## Validation
 
 - [W3C Markup Validation]() was used to validate the code in the three HTML files. I tested each page separately, debugged the errors and, in the end, they have all passed with no errors.
+![HTML Validation](Readme-assets/img/html.validation.png)
 - [W3C CSS Validation]() was used to validate the code in my style.css file.
 - The website has been tested with the Lighthouse for each page separately and on both desktop and mobile devices and, required actions have been taken to improve the functionality of the website as much as possible and as far as related to HTML and CSS.
-![Lighthouse result]()
+![Lighthouse result]()  Was used to check the overall performance of the website and as a way to improve the website performance.
                                   
 
 
 | Bugs | Solutions |            
 | ----------- | ----------- |
 | When testing the published website, noticed that the "scroll-back-to-top" button does not appear after scrolling down the page and its position behaves as if it had an absolute position. The button was not showing on the viewport but it was placed at the bottom of the page instead. | I have fixed this by removing the perspective property from the body element.|
-| When testing the HTML files in the w3 validator, I received errors saying that buttons must not appear as a descendant of 'a' elements or vice versa.| I have fixed this by removing the nested structure and instead giving a button class from bootstrap to an 'a' element.|
-|When testing the HTML files in the w3 validator, I received warnings regarding empty headings. | I have left this unfixed since the data filling out these empty headings comes from an API using Javascript.|
-| When testing the HTML files in the w3 validator, I received errors | I have fixed this issue by |
-| When testing the HTML files in the w3 validator, I received errors  |  I have fixed this by |
-| I have received a warning from the lighthouse asking to consider a title for the iframe element as screen reader users rely on frame titles to describe the contents of frames. | A title has been added to the element.|
-| I have received a warning from the lighthouse asking to consider using a "rel=noopener" attribute for any external links to improve performance and prevent security vulnerabilities.| The intended attribute has been added to all external links.|
-| I have received a warning from the lighthouse asking to consider using meta element with unique descriptions and keywords in every page to optimize the search engine machine | This element has been added to every page separately|                                   
+| When testing the HTML files in the w3 validator, I received errors saying that buttons must not appear as a descendant of 'a' elements or vice versa.| I have fixed this by removing the nested structure and instead of giving a button class from bootstrap to an 'a' element.|
+| When Viewing the job.html on iPhone devices, noticed that the cards would not flip on click but this was not an issue on other devices. | I have fixed this by adding -webkit-... -o-... and -moz-... to the relevant properties for more compatibility.|
 
 
 ## Unfixed Bugs
 
-- In Markup Validation Service, I have disregarded 1 warning regarding considering using h2-h6 elements in the main section on each page, since the heading elements were put separately in the child elements inside each section for semantic reasons and not directly in the section area.
-![W3 HTML Validator](README-assets/screenshots/Screenshot.html.validator.png)
-- When testing the CSS file in the w3 validator, I have received a number of warnings and errors from the CSS validator which according to the tutor Fatima from the Code Institute, they are caused by browser compatibility issues related to the external links such as bootstrap. This was not the case when I manually copied and pasted the entire CSS file in the validator.
-![W3 CSS Validator](README-assets/screenshots/Screenshot.css.validator.png)
+|When testing the HTML files in the w3 validator, I received warnings regarding empty headings. | I have left this unfixed since the data filling out these empty headings comes from an API using Javascript.|
 
 ## Known issues
-- In the "About our products" section, the two columns won't line up in iPad Pro and similar-size devices. I know that the overflow of the text area occurs due to the large text area, but due to the importance of the content, I prefer to keep the same amount of text.
-In fact, the importance of content has surpassed the importance of ideal design.
-![Image of overflow](README-assets/screenshots/Ipad-pro-homepage.png)
+- In the job offer page "job.html", there was an issue with flipping cards on mobile view. to fix this issue, I would have to add perspective to the body element and that would have caused another issue with the back-to-top button as it would disable the fixed position of the button and instead of the viewport, it would place the button all the way down the page.
+To fix this, I gave a class to the body element of that page and set the perspective property using a media query, but this left the back-to-top disabled on the job offer page on a mobile view which does not cause a serious issue as the page content is not long.
+
+
 
 
 ## Client stories testing:
 
 The potential common paths through the website:
 
-- Home > Menu > Contact
-- Home > Menu > Gallery
-- Home > Gallery
-- Home > Gallery > Contact
-- Home > Contact                
+- Home > Services > Contact
+- Home > Contact
+- Home > Job Offer 
+              
 
 Each of these possible paths is achievable by simply navigating through the navigation bar and a menu link shortcut on the "Home" page.
 ### Testing client stories from UX section of [README.md](/README.md)
@@ -55,36 +48,15 @@ Each of these possible paths is achievable by simply navigating through the navi
       - No matter what page the user lands on, they can navigate to the "Home" page and achieve their goal.
 
 
-2. As a new visitor, I would like to know about the menu items and the prices.
-      - The user lands on the "Home" page and can navigate to the "menu" page by clicking on the menu link from the navigation bar or by the menu link shortcut in the "About our products" section on the "Home" page.
-      - The user lands directly on the "menu" page.
-      - The user lands on the "Gallery" page and navigates to the "menu" page through the navigation bar.
+2. As a new visitor, I would like to 
+      
 
 
-3. As a potential customer, I would like to check out the gallery and see some photos of the place and the products.
-      - The user lands on the "Home" page and can navigate to the "Gallery" page by clicking on the "Gallery" link from the navigation bar.
-      - The user lands on the "menu" page and can navigate to the "Gallery" page by clicking on the "Gallery" link from the navigation bar.
-      - The user lands directly on the "Gallery" page.
-
-4. As an interested visitor, I would like to know about the opening hours and get directions to the place.
-      - The user lands on the "Home" page and after scrolling down the "Home" page they will see the opening hours and contact info section.
-      - The user lands on the "menu" page and can navigate either to the contact section on the "Home" page by clicking on the contact link from the navigation bar, or navigate to the "Home" page and scroll down the page to reach the intended section.
-      - The user lands on the "Gallery" page and can either navigate to the contact section on the "Home" page by clicking on the contact link from the navigation bar or navigate to the "Home" page and scroll down the page to reach the intended section.
 
 
-5. As an interested visitor, I would like to know whether I can reserve the site for an event.
-      - The user lands on the "Home" page and after scrolling down the "Home" page they will find their expected information about booking the place and contact information.
-      - The user lands on the "menu" page and can navigate to the "Home" page by clicking on the "Home" link from the navigation bar and after scrolling down the "Home" page they will find their intended information about reserving the place and contact information.
-      - The user lands on the "Gallery" page and can navigate to the "Home" page by clicking on the "Home" link from the navigation bar and after scrolling down the "Home" page they will find their intended information about reserving the place and contact information.
 
-6. As a returning visitor, I would like to know about the latest updates in the store and the menu.
-      - The user lands on the "Home" page and finds the latest changes corresponding to each section on the "Home" page.
-      - The user lands on the "menu" page and finds all the updates on the menu card.
-      - The user lands on the "Gallery" page and finds the latest photos of the products and place.
-      - No matter what page the user lands on they can always navigate to the intended page through the navigation bar on the top of every page.
 
-7. As a returning visitor, I would like to get in touch with the place and order in advance so that I can pick up my order at a specific time.
-     - No matter what page the user lands on, they can click on the contact link from the navigation bar and, click on the telephone icon.
+
      
 
 
@@ -112,7 +84,7 @@ Each of these possible paths is achievable by simply navigating through the navi
       
 
 
-###  The section "About our Products" 
+###  The section "" 
 
  - Go to the "Home" page from a desktop.
  - Make sure the image and the text place in the correct position.
@@ -121,7 +93,7 @@ Each of these possible paths is achievable by simply navigating through the navi
  - Click on the "Menu" link and make sure it links to the "Menu" page.
 
 
-###  The section "Our Cozy Place"
+###  The section ""
  - Go to the "Home" page from a desktop.
  - Make sure the image and the text place in the correct position.
  - Reduce the width of the window to confirm that the image and the text lay on block levels.
@@ -129,19 +101,19 @@ Each of these possible paths is achievable by simply navigating through the navi
  - Click on the next and previous icons in the carousel box to check if they respond.
 
 
-###  The section "Gift card" 
+###  The section "" 
  - Go to the "Home" page from a desktop.
  - Make sure the image and the text place in the correct position.
  - Reduce the width of the window to confirm that the image and the text lay on block levels.
  - Ensure that the images inside the carousel box slide to the next one automatically.
  - Click on the next and previous icons in the carousel box to check if they respond.
 
-###  The section "Opening Hours"
+###  The section ""
  - Go to the "Home" page from a desktop.
  - Scroll down the page to the section.
  - Reduce the width of the window to confirm that the paddings and spacings switch to tablet and mobile mode accordingly.
 
-###  The section "contact information"   
+###  The section ""   
  - Go to the "Home" page from a desktop.
  - Scroll down the page to the section.
  - Reduce the width of the window to confirm that the map and the text lay on block levels.
@@ -152,15 +124,15 @@ Each of these possible paths is achievable by simply navigating through the navi
      
 
 
-###  Menu page 
+###  Services page 
  - Navigate to the "Menu" page from a desktop.
  - Make sure the spacing around the rows, tables, and items is applied correspondingly.
      - When viewing the "Menu" page on a mobile device, noticed that the padding of the rows do not match the padding of the rows on the "Home" page. This has been fixed by adjusting the x-axis padding.
  - Reduce the width of the window to confirm that each table lays on a block level.
 
 
-###  Gallery page
- - Navigate to the "Gallery" page from a desktop.
+###  Job Offer page
+ - Navigate to the "Job Offer" page from a desktop.
  - Make sure the spacing around the rows and images is applied correspondingly.
  - Hover over every single image and check that the opacity of images changes and revert back when removing the hover.
  - click on every single image and make sure the right image opens in the modal.
@@ -188,7 +160,8 @@ Each of these possible paths is achievable by simply navigating through the navi
 
 - I have tested the website on the following devices:
 
-     - iPhone 8/X/12/5/SE (On physical devices)
+     - iPhone X/12/12 pro (On physical devices)
+     - Galaxy S21 (On physical device)
      - iPad (On physical devices)
      - iPad Pro (Chrome Developer Tools)
      - iPad mini (Chrome Developer Tools)

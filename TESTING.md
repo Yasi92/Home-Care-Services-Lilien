@@ -5,9 +5,9 @@
 
 ## Validation
 
-- [W3C Markup Validation]() was used to validate the code in the three HTML files. I tested each page separately, debugged the errors and, in the end, they have all passed with no errors.
-![HTML Validation](Readme-assets/img/html.validation.png)
-- [W3C CSS Validation]() was used to validate the code in my style.css file.
+- ![HTML Validation](Readme-assets/img/html.validation.png)    was used to validate the code in the three HTML files. I tested each page separately, debugged the errors and, in the end, they have all passed with no errors.
+
+- ![W3C CSS Validation](Readme-assets/img/css.validation.png) was used to validate the code in my style.css file.
 - The website has been tested with the Lighthouse for each page separately and on both desktop and mobile devices and, required actions have been taken to improve the functionality of the website as much as possible and as far as related to HTML and CSS.
 ![Lighthouse result]()  Was used to check the overall performance of the website and as a way to improve the website performance.
                                   

@@ -575,6 +575,11 @@ footer {
     max-width: 100vw;
   }
 
+  .job-body {
+    perspective: 40rem;
+    -webkit-perspective: 40rem;
+  }
+
   .container {
     padding-left: 1.5rem;
     padding-right: 1.5rem;

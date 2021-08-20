@@ -16,7 +16,10 @@ body {
   background-color: #EAE8ED;
  
  
+ 
 }
+
+
 
 .main-img {
   visibility: hidden;
@@ -600,11 +603,22 @@ footer {
 
   body {
     max-width: 100vw;
+ 
   }
+
+// This rule has been set to fix the conflict between flipping cards on mobile view and displaying back-to-top button on scroll
+// If the perspective property was given to the body element, the back-to-top button would have not get the fixed position but the absolute position and, on the other hand if the perspective property was not given to 
+// the body element, the cards would not flip on click on mobile view.
+  .job-body{
+    perspective: 40rem;
+    -webkit-perspective: 40rem;
+  }
+
 
   .container {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+
   }
 
   .btn-team {

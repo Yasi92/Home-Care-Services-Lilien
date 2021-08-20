@@ -7,8 +7,7 @@ $('#corona-btn').click(function (event) {
     $('#corona-news').slideToggle('slow');
 
     event.target.textContent == 'Show More' ? event.target.textContent = 'Show Less' : event.target.textContent = 'Show More'; 
-    
-
+     
 });
 
 

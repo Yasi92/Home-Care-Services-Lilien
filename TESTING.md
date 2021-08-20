@@ -20,13 +20,14 @@
 | When Viewing the job.html on iPhone devices, noticed that the cards would not flip on click but this was not an issue on other devices. | I have fixed this by adding -webkit-... -o-... and -moz-... to the relevant properties for more compatibility.|
 
 
+
 ## Unfixed Bugs
 
 |When testing the HTML files in the w3 validator, I received warnings regarding empty headings. | I have left this unfixed since the data filling out these empty headings comes from an API using Javascript.|
 
 ## Known issues
 - In the job offer page "job.html", there was an issue with flipping cards on mobile view. to fix this issue, I would have to add perspective to the body element and that would have caused another issue with the back-to-top button as it would disable the fixed position of the button and instead of the viewport, it would place the button all the way down the page.
-To fix this, I gave a class to the body element of that page and set the perspective property using a media query, but this left the back-to-top disabled on the job offer page on a mobile view which does not cause a serious issue as the page content is not long.
+To fix this, I gave a class to the body element of that page and set the perspective property using a media query, but this left the back-to-top (sometimes) disabled on the job offer page on a mobile view which does not cause a serious issue as the page content is not long.
 
 
 

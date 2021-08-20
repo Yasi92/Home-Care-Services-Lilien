@@ -98,7 +98,7 @@ Lives in Hanover and in needs of home care services.
           * Sans-serif for the fallback font.
 
 
-![navigation bar](README-assets/img/)
+![navigation bar](README-assets/img/navbar.png)
 *   #### Navigation Bar     
     * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Services, Job Offer and Contact page and is identical on each page to allow for easy navigation.
     * On the window load, the navigation links slide in to make a smooth animation on every landing view.
@@ -109,25 +109,25 @@ Lives in Hanover and in needs of home care services.
 
 
 
-![landing page image and text ](README-assets/img)
+![landing page image and text ](README-assets/img/landing-page.png)
 *  #### The landing page area   
     * The landing area, grabs the user's attention by smooth scaling up from top of the window.
 
 
 
-![Welcome Text](README-assets/img)
+![Welcome Text](README-assets/img/welcome-txt.png)
 * #### The welcome Text
     * The welcome text is the second section on the home page and provides an overview of the company.
 
 
 
 
-![About Our Team](README-assets/img)
+![About Our Team](README-assets/img/team-box.png)
 * #### About Our Team
     * "About our team" section provides information about the company's team and management.
 
 
-    ![contact information](README-assets/)
+    ![contact information](README-assets/img/contact-section.png)
 * #### The section "contact information"    
      * This section provides users with the contact information of the company.
      * The corresponding icons are added to each of the contact paths, not only for design reasons, but also for a better UX experience and quick access.
@@ -137,7 +137,7 @@ Lives in Hanover and in needs of home care services.
      * The two columns will be displayed in block levels on Ipad and mobile devices for responsiveness reasons.
 
 
-![Corona news](README-assets/img)
+![Corona news](README-assets/img/covid-19-news.png)
 * #### Covid-19 News 
     * The section "covid-19 News" appears on the page once it enters to the viewport with an attractive animation.
     * This section uses data from the "coronavirus-smartable" API from RapidAPI and it renders its data on separate cards created with bootstrap.
@@ -147,7 +147,7 @@ Lives in Hanover and in needs of home care services.
 
 
 
-![Corona stats](README-assets/img)
+![Corona stats](README-assets/img/covid-19-stats.png)
 * #### Covid-19 Statistics
     * The section "covid-19 Statistics" appears on the page once it enters to the viewport with an attractive animation.
     * This section uses data from the "covid-19 data" API from RapidAPI and it renders its data on a list group created with bootstrap.
@@ -155,7 +155,8 @@ Lives in Hanover and in needs of home care services.
 
 
 
-    ![Services Page](README-assets/img)
+    ![Services Page](README-assets/img/services.png)
+    ![Services Page](README-assets/img/expanded-services.png)
 * #### Menu page 
  * The Services page categories different types of services in 4 separate sections.
    * Each row appears to the window with a stagger and smooth animation.
@@ -165,7 +166,8 @@ Lives in Hanover and in needs of home care services.
 
 
 
-     ![Job Offer Page](README-assets/img)
+     ![Job Offer Page](README-assets/img/cards-front.png)
+     ![Job Offer Page](README-assets/img/cards-back.png)
 * #### Job Offer Page 
  * On the job offer page, the user can find information about applying for a job.
  * The information regarding requirements and prerequisites are divided into 2 cards.
@@ -175,10 +177,32 @@ Lives in Hanover and in needs of home care services.
 
 
 
-
+![Application Form](README-assets/img/job-form.png)
 * #### Application form 
  * The application form allows users to fill out the form and send their message via email.
- * Once the submit button is clicked, a modal opens into the viewport saying that the company will respond to their message in 4 working days, and this is to prevent the user from confusion with hesitating whether the form has been sent.
+ * Once the submit button is clicked, a modal opens into the viewport saying that the company will respond to their message in 4 working days. This is to prevent the user from confusion with hesitating whether the form has been sent.
+ * After submitting the form, all the fields will be reset.
+
+
+
+![Contact Page](README-assets/img/contact-form.png)
+* #### Contact Page 
+ * The contact information section on the home page is repeated here for more accesibility.
+ * The contact form on this section allows users to fill out the form and communicate with the company by sending direct emails.
+ * The option to choose the type of services on the form, indicates the intended query the user has.
+ * Once the submit button is clicked, a modal opens into the viewport saying that the company will respond to their message in 4 working days. This is to prevent the user from confusion with hesitating whether the form has been sent.
+ * After submitting the form, all the fields will be reset.
+
+
+
+ ![back-to-top button](README-assets/img/back-to-top-btn.png)
+* #### Sticky back-to-top button
+    * After 1000 px of scrolling the page down, a sticky back-to-top button appears at the bottom right of the window to easily navigate to the top page without having to scroll all the way back up.
+    * This feature is especially useful on mobile devices, as it prevents the user from having to scroll all the way back to the top of the page.
+
+
+
+
 
 ## Technologies Used
 

@@ -1,6 +1,9 @@
 # Maryam Abdolbeigi
 
+
 ## Lilien Home Care Services 
+![Responsive Design](README-assets/img/responsive-design.png)
+[Lilien Home Care Services In Action](https://yasi92.github.io/Home-Care-Services-Lilien/)
 
 This is the website for the Lilien Home Care Services in Hannover. 
 The idea to create this website is to improve the existing website in wordpress, however, this version was not inspired by the old version in any way but in terms of content and site material.          
@@ -110,8 +113,9 @@ Lives in Hanover and in needs of home care services.
 
 
 ![landing page image and text ](README-assets/img/landing-page.png)
-*  #### The landing page area   
+*  #### The landing page area on all pages
     * The landing area, grabs the user's attention by smooth scaling up from top of the window.
+    * The headings will smoothly enter into the page after the image has sitted to its final position.
 
 
 
@@ -155,9 +159,9 @@ Lives in Hanover and in needs of home care services.
 
 
 
-    ![Services Page](README-assets/img/services.png)
-    ![Services Page](README-assets/img/expanded-services.png)
-* #### Menu page 
+![Services Page](README-assets/img/services.png)
+![Services Page](README-assets/img/expanded-services.png)
+* #### Services Page
  * The Services page categories different types of services in 4 separate sections.
    * Each row appears to the window with a stagger and smooth animation.
    * Once clicked on the "learn more" link, the layout of the section changes into the long description of each service in a smooth way.
@@ -166,8 +170,8 @@ Lives in Hanover and in needs of home care services.
 
 
 
-     ![Job Offer Page](README-assets/img/cards-front.png)
-     ![Job Offer Page](README-assets/img/cards-back.png)
+![Job Offer Page](README-assets/img/cards-front.png)
+![Job Offer Page](README-assets/img/cards-back.png)
 * #### Job Offer Page 
  * On the job offer page, the user can find information about applying for a job.
  * The information regarding requirements and prerequisites are divided into 2 cards.

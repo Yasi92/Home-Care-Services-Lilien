@@ -45,12 +45,17 @@ Each of these possible paths is achievable by simply navigating through the navi
 ### Testing client stories from UX section of [README.md](/README.md)
 
 1. As a new visitor, I would like to get some general information and an introduction to the business.
-
-      - No matter what page the user lands on, they can navigate to the "Home" page and achieve their goal.
-
-
-2. As a new visitor, I would like to 
-      
+   - The general information about the company is provided on the Home page.
+2. As a first time visitor, I want to know what types of service this company has to offer.
+   - The user can navigate to the Services page either throught the shortcut button on the home page or from the links on the navigation bar.
+3. As a first time visitor, I want to send them a query by sending an email.
+   - The user navigates to the "contact" page, and after having filled the form they submit it.
+   - The user navigates to the contact page and choose their preffered contact method.
+4. As a potential employee, I want to apply for a job and send them my CV.
+   - The user navigates to the job offer page and after having read the job requirements and prerequisits they will fill out the application form.
+5. As a returning visitor, I want to get directions to the location.
+   - The visitor scrolls down the home page or nagigates to the contact page and, get directions from the embeded google map.
+   
 
 
 
@@ -66,62 +71,63 @@ Each of these possible paths is achievable by simply navigating through the navi
 
 ###  Navigation Bar
 
- - Go to the "Home" page from a desktop.
+ - Go to the "Home" page from a desktop and ensure that the navigation links enter the page smoothly as having set the animation effect.
  - Change the screen size from desktop to tablet to verify that the navigation bar is responsive and switches from the inline menu to the burger icon dropdown menu at the appropriate place.
+ - Change the screen size and ensure that the animation on the nav links are stopped when the navbar collapsed.
  - Open the page by Chrome developer tool and check the responsiveness of the navigation bar and make sure that the expanded navigation bar switches to a burger icon dropdown menu at the appropriate place.
  - Click on the burger icon and make sure the menu items dropdown.
  - Click on every link item to verify they function accordingly.
  - Click on the logo in the navigation bar and verify that it links to the "Home" page.
- - Hover over every item and verify that the text grows when hovering and returns to the normal size when removing the hover.
- - Make sure the logo font size adjust appropriately as specified in the media query.
- - Click on every navigation link and make sure the border-bottom appears under the correct item.
 
-###  The landing page image and text   
 
- - Go to the "Home" page from a desktop.
- - Make sure the image and the text place in the correct position.
+###  The landing page and headings 
+
+ - Go to every single page one by one to ensure that the animation on the landing images runs as expected and from zero opacity after the page has been compeletly loaded.
+ - Ensure that the headings appear on the page after the animation of the image has been compeleted.
  - Click the refresh button on the browser and confirm the animation effects on the image and the text run smoothly and as expected.
- - Reduce the width of the window to confirm that the image and the text lay on block levels.
+
       
 
 
-###  The section "" 
+###  The section "About Our Team" 
 
- - Go to the "Home" page from a desktop.
- - Make sure the image and the text place in the correct position.
- - Click the refresh button on the browser and confirm the animation effects on the image and the text run smoothly and as expected.
- - Reduce the width of the window to confirm that the image and the text lay on block levels.
- - Click on the "Menu" link and make sure it links to the "Menu" page.
+- Click on the join our team button to ensure that it links to the job offer page.
+- Resize the window to check that the columns appear on a block level on iPad and mobile view.
 
 
-###  The section ""
- - Go to the "Home" page from a desktop.
- - Make sure the image and the text place in the correct position.
- - Reduce the width of the window to confirm that the image and the text lay on block levels.
- - Ensure that the images inside the carousel box slide to the next one automatically.
- - Click on the next and previous icons in the carousel box to check if they respond.
+###  The section "Contact Information"
 
-
-###  The section "" 
- - Go to the "Home" page from a desktop.
- - Make sure the image and the text place in the correct position.
- - Reduce the width of the window to confirm that the image and the text lay on block levels.
- - Ensure that the images inside the carousel box slide to the next one automatically.
- - Click on the next and previous icons in the carousel box to check if they respond.
-
-###  The section ""
- - Go to the "Home" page from a desktop.
- - Scroll down the page to the section.
- - Reduce the width of the window to confirm that the paddings and spacings switch to tablet and mobile mode accordingly.
-
-###  The section ""   
- - Go to the "Home" page from a desktop.
- - Scroll down the page to the section.
  - Reduce the width of the window to confirm that the map and the text lay on block levels.
  - Click on the map to confirm it navigates to the Google map and directs to the correct address.
+ - Check the console log to ensure that there is no warning or error related to calling google map API.
  - Click on the telephone icon to confirm the link function accordingly.
  - Click on the Instagram link to verify that it opens the Instagram page in a new tab.
  - Click on the Mail icon to verify that it leads to the mailbox with the correct email address and, in a new tab.
+
+
+###  The section "Covid-19 News " 
+
+- Click on the "show more" button to ensure that it slides the covid-19 news cards.
+- Ensure that the text on the button changes once it is expanded and vice versa.
+- click on the read more buttons to make sure that they links to the corresponding referense websites.
+- Resize the window to check that the cards takes the whole column width on mobile devices.
+- Click on the "show less button" to make sure that it collapses the section.
+
+
+###  The section "Covid-19 Statistics"
+- Click on the "show more" button to ensure that it slides the covid-19 statistic list.
+- Ensure that the text on the button changes once it is expanded and vice versa.
+- Reduce the window to ensure that the paddings of the table changes accordingly.
+
+###  The Services Page
+
+- Go to the services page and essure that each row smoothly enters the viewport with a slight delay one after another.
+- Click on the "learn more" links and ensure that the layout of the information changes as expected.
+- Click on all links and make sure that every links only toggle the relevant information of their own rows.
+- On expanded view, click on the back button to make sure that the layout of the information changes to its initial state.
+- click on the "get in touch" buttons to make sure that it links to the contact form section on the contact page.
+- Reduce the window size to make sure that the columns appear on block level on iPad and mobile viewports.
+
      
 
 

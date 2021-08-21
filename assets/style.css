@@ -7,6 +7,7 @@
 
 html {
   min-width: fit-content;
+  overflow-x: hidden;
 }
 
 body {

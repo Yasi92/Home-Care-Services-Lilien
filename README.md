@@ -183,10 +183,19 @@ Mobile:
 
 
 
-![Application Form](Readme-assets/img/job-form.png)
+![Application Form](Readme-assets/img/question-box.png)
+![Application Form](Readme-assets/img/bye-txt.png)
+ * #### Question Box
+   * In this section, the user is asked to choose whether or not they are interested to apply for a job or not.
+   * By choosing "Yes let's get started" the application from appears on the page and the user will be asked to fill out the form.
+   * By choosing "No thanks" a piece of text appears on the page thanking the user for visiting the website.
+
+
+![Application Form](Readme-assets/img/application-form.png)
 * #### Application form 
+ * If the user clicks on the "Yes let's get started" button, this application form appears onto the page.
  * The application form allows users to fill out the form and send their message via email.
- * Once the submit button is clicked, an alert appears on top of the form saying that the company will respond to their message in 4 working days. 
+ * Once the submit button is clicked, an alert appears under the submit button saying that the company will respond to their message in 4 working days. 
  * This is to prevent the user from confusion with hesitating whether the form has been sent.
  * After submitting the form, all the fields will be reset.
 
@@ -197,7 +206,7 @@ Mobile:
  * The contact information section on the home page is repeated here for more accesibility.
  * The contact form on this section allows users to fill out the form and communicate with the company by sending direct emails.
  * The option to choose the type of services on the form, indicates the intended query the user has.
- * Once the submit button is clicked, an alert appears on top of the form saying that the company will respond to their message in 4 working days. 
+ * Once the submit button is clicked, an alert appears under the submit button saying that the company will respond to their message in 4 working days. 
  * This is to prevent the user from confusion with hesitating whether the form has been sent.
  * After submitting the form, all the fields will be reset.
 

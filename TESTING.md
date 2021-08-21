@@ -8,23 +8,26 @@
 - ![HTML Validation](Readme-assets/img/html.validation.png)    was used to validate the code in the three HTML files. I tested each page separately, debugged the errors and, in the end, they have all passed with no errors.
 
 - ![W3C CSS Validation](Readme-assets/img/css.validation.png) was used to validate the code in my style.css file.
-- The website has been tested with the Lighthouse for each page separately and on both desktop and mobile devices and, required actions have been taken to improve the functionality of the website as much as possible and as far as related to HTML and CSS.
-![Lighthouse result]()  Was used to check the overall performance of the website and as a way to improve the website performance.
+- The website has been tested with the Lighthouse for each page separately and on both desktop and mobile devices and, required actions have been taken to improve the functionality of the website as much as possible.
+- Lighthouse was also used to check the overall performance of the website and as a way to improve the website performance.
                                   
 
 | Bugs | Solutions |            
 | ----------- | ----------- |
 | When testing the published website, noticed that the "scroll-back-to-top" button does not appear after scrolling down the page and its position behaves as if it had an absolute position. The button was not showing on the viewport but it was placed at the bottom of the page instead. | I have fixed this by removing the perspective property from the body element.|
 | When testing the HTML files in the w3 validator, I received errors saying that buttons must not appear as a descendant of 'a' elements or vice versa.| I have fixed this by removing the nested structure and instead of giving a button class from bootstrap to an 'a' element.|
-| When Viewing the job.html on iPhone devices, noticed that the cards would not flip on click but this was not an issue on other devices. | I have fixed this by adding -webkit-... -o-... and -moz-... to the relevant properties for more compatibility.|
+| When Viewing the job.html on iPhone devices, noticed that the cards would not flip on click but this was not an issue on other devices. | I have fixed this by adding -webkit-... -o-... and -moz-... to the relevant properties for more compatibility.|      
+
 
 ## Unfixed Bugs
 
-|When testing the HTML files in the w3 validator, I received warnings regarding empty headings. | I have left this unfixed since the data filling out these empty headings comes from an API using Javascript.|
+- When testing the HTML files in the w3 validator, I received warnings regarding empty headings.     
+   * I have left this unfixed since the data filling out these empty headings comes from an API using Javascript.       
+
 
 ## Known issues
 - In the job offer page "job.html", there was an issue with flipping cards on mobile view. to fix this issue, I would have to add perspective to the body element and that would have caused another issue with the back-to-top button as it would disable the fixed position of the button and instead of the viewport, it would place the button all the way down the page.
-To fix this, I gave a class to the body element of that page and set the perspective property using a media query, but this left the back-to-top (sometimes) disabled on the job offer page on a mobile view which does not cause a serious issue as the page content is not long.
+To fix this, I gave a class to the body element of that page and set the perspective property using a media query, but this left the back-to-top disabled on the job offer page on a mobile view which does not cause a serious issue as the page content is not long.
 
 
 ## Client stories testing:
@@ -127,10 +130,18 @@ Each of these possible paths is achievable by simply navigating through the navi
 
 
 
+ ### Question Box
+ - Click on the "Yes, let's get started" button to make sure that the layout of the page changes accordingly and the application form appears onto the page.
+ - Make sure that the color of the button is toggled on expanded and collapsed states.
+ - Click on the "No thanks" button to make sure that the relevant text box appears onto the page and the color of the button is toggled. 
+ 
+
+
+
 ###  Application form
 
 - Resize the window and ensure that the form size is responsive and it modifies the layout of the first two columns on small views accordingly.
-- Have filled the form and click on the submit button to make sure that the alert box appears on top of the form after having the form submitted.
+- Have filled the form and click on the submit button to make sure that the alert box appears under the submit button after having the form submitted.
 - Check the linked mail box to make sure that the form has been received in the assigned template.
 - Repeat the above submitting process on mobile devices.
 
@@ -139,7 +150,7 @@ Each of these possible paths is achievable by simply navigating through the navi
 ### Contact Form
 
 - Resize the window and ensure that the form size is responsive and it modifies the layout of the first two rows on small views accordingly.
-- Have filled the form and click on the submit button to make sure that the alert box appears on top of the form after having the form submitted.
+- Have filled the form and click on the submit button to make sure that the alert box appears under the submit button after having the form submitted.
 - Check the linked mail box to make sure that the form has been received in the assigned template.
 - Repeat the above submitting process on mobile devices.
 

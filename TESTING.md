@@ -103,6 +103,7 @@ Each of these possible paths is achievable by simply navigating through the navi
  - Click on the telephone icon to confirm the link function accordingly.
  - Click on the Instagram link to verify that it opens the Instagram page in a new tab.
  - Click on the Mail icon to verify that it leads to the mailbox with the correct email address and, in a new tab.
+ - The above steps are repeated on the contact information section on the contact page as well.
 
 
 ###  The section "Covid-19 News " 
@@ -131,23 +132,35 @@ Each of these possible paths is achievable by simply navigating through the navi
      
 
 
-###  Services page 
- - Navigate to the "Menu" page from a desktop.
- - Make sure the spacing around the rows, tables, and items is applied correspondingly.
-     - When viewing the "Menu" page on a mobile device, noticed that the padding of the rows do not match the padding of the rows on the "Home" page. This has been fixed by adjusting the x-axis padding.
- - Reduce the width of the window to confirm that each table lays on a block level.
-
-
-###  Job Offer page
+###  Flipping Cards
  - Navigate to the "Job Offer" page from a desktop.
- - Make sure the spacing around the rows and images is applied correspondingly.
- - Hover over every single image and check that the opacity of images changes and revert back when removing the hover.
- - click on every single image and make sure the right image opens in the modal.
- - Click on an image and wait to confirm that all the images slide through the carousel box in order.
- - Ensure the next and previous icons in the carousel box function accordingly.
- - Check the functionality of the close button on the top right of the images in the modal.
- - Reduce the width of the window to confirm that all the images behave responsively.
- - Open the page in the "Developer Tool", choose a mobile device and ensure that the images lay on a block level.
+ - Click on the "click Me" buttons to ensure that each card flips on click and each button toggles the correct card.
+ - Click on the back button on the back face of the cards to check that they flip back the cards.
+ - Resize the window to make sure that the cards appear on block level and with less padding around.
+ - Check the flipping action on actual mobile and iPad devices to make sure they function right.
+
+
+
+###  Application form
+
+- Resize the window and ensure that the form size is responsive and it modifies the layout of the first two columns on small views accordingly.
+- Have filled the form and click on the submit button to make sure that the modal opens up in the center of the viewport after having the form submitted.
+- Check the linked mail box to make sure that the form has been received in the assigned template.
+- Repeat the above submitting process on mobile devices.
+
+
+
+### Contact Form
+
+- Resize the window and ensure that the form size is responsive and it modifies the layout of the first two rows on small views accordingly.
+- Have filled the form and click on the submit button to make sure that the modal opens up in the center of the viewport with the relevant text after having the form submitted.
+- Check the linked mail box to make sure that the form has been received in the assigned template.
+- Repeat the above submitting process on mobile devices.
+
+
+
+
+
 
 
 ###  Sticky back-to-top button
@@ -157,6 +170,10 @@ Each of these possible paths is achievable by simply navigating through the navi
 
 ### Footer
  - Confirm that footer code is identical on all HTML pages.
+
+
+
+ 
 
 ## Further Testing
  - I have tested the website on the following internet browsers and no serious issue was found:

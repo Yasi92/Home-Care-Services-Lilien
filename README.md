@@ -2,7 +2,7 @@
 
 
 ## Lilien Home Care Services 
-![Responsive Design](README-assets/img/responsive-design.png)
+![Responsive Design](README-assets/img/responsive-design.png)       
 [Lilien Home Care Services In Action](https://yasi92.github.io/Home-Care-Services-Lilien/)
 
 This is the website for the Lilien Home Care Services in Hannover. 

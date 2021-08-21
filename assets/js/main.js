@@ -26,16 +26,14 @@ $('.job-int-btn').click(function (event) {
     let card = event.target.parentElement.parentElement.parentElement;
 
     $(card).toggleClass('flipped');
-    console.log(card);
-
 });
+
 
 // it flips the cards back on job.html on click back
 $('.back-job-btn').click(function (event) {
     let card = event.target.parentElement.parentElement.parentElement.parentElement;
 
     $(card).toggleClass('flipped');
-    console.log(card);
 
 });
 
@@ -75,7 +73,7 @@ $(".back-btn").on('click', function (event) {
     let image = event.target.parentElement.parentElement.parentElement.previousElementSibling;
     let clToggle = event.target.parentElement.parentElement.parentElement;
 
-    console.log(shortDescription);
+
     $(text).hide()
     $(image).fadeIn('slow');
     $(link).fadeIn('slow');

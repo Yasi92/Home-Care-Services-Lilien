@@ -11,7 +11,6 @@ async function getData() {
 
     const data = await response.json();
     const options = await data[0];
-    console.log(data);
     const {
         country,
         confirmed,
@@ -43,7 +42,6 @@ async function getNewsData() {
     });
 
     const dataNews = await newsResponse.json();
-    console.log(dataNews.news);
 
     var articles = dataNews.news;
 

@@ -130,7 +130,7 @@ Each of these possible paths is achievable by simply navigating through the navi
 ###  Application form
 
 - Resize the window and ensure that the form size is responsive and it modifies the layout of the first two columns on small views accordingly.
-- Have filled the form and click on the submit button to make sure that the modal opens up in the center of the viewport after having the form submitted.
+- Have filled the form and click on the submit button to make sure that the alert box appears on top of the form after having the form submitted.
 - Check the linked mail box to make sure that the form has been received in the assigned template.
 - Repeat the above submitting process on mobile devices.
 
@@ -139,7 +139,7 @@ Each of these possible paths is achievable by simply navigating through the navi
 ### Contact Form
 
 - Resize the window and ensure that the form size is responsive and it modifies the layout of the first two rows on small views accordingly.
-- Have filled the form and click on the submit button to make sure that the modal opens up in the center of the viewport with the relevant text after having the form submitted.
+- Have filled the form and click on the submit button to make sure that the alert box appears on top of the form after having the form submitted.
 - Check the linked mail box to make sure that the form has been received in the assigned template.
 - Repeat the above submitting process on mobile devices.
 

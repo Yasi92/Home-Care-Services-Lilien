@@ -186,7 +186,8 @@ Mobile:
 ![Application Form](Readme-assets/img/job-form.png)
 * #### Application form 
  * The application form allows users to fill out the form and send their message via email.
- * Once the submit button is clicked, a modal opens into the viewport saying that the company will respond to their message in 4 working days. This is to prevent the user from confusion with hesitating whether the form has been sent.
+ * Once the submit button is clicked, an alert appears on top of the form saying that the company will respond to their message in 4 working days. 
+ * This is to prevent the user from confusion with hesitating whether the form has been sent.
  * After submitting the form, all the fields will be reset.
 
 
@@ -196,7 +197,8 @@ Mobile:
  * The contact information section on the home page is repeated here for more accesibility.
  * The contact form on this section allows users to fill out the form and communicate with the company by sending direct emails.
  * The option to choose the type of services on the form, indicates the intended query the user has.
- * Once the submit button is clicked, a modal opens into the viewport saying that the company will respond to their message in 4 working days. This is to prevent the user from confusion with hesitating whether the form has been sent.
+ * Once the submit button is clicked, an alert appears on top of the form saying that the company will respond to their message in 4 working days. 
+ * This is to prevent the user from confusion with hesitating whether the form has been sent.
  * After submitting the form, all the fields will be reset.
 
 
@@ -224,7 +226,7 @@ Mobile:
 
 
 1. [Bootstrapv4.5.3](https://getbootstrap.com/)       
-- This was used for the main layout of the 3 pages and modal gallery.   
+- This was used for the main layout, forms, alerts and other elements. 
 
 2. [Balsamiq](https://balsamiq.com/wireframes/)         
 - This was used to create mockups during the design process.      

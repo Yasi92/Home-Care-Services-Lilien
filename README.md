@@ -6,7 +6,7 @@
 [Lilien Home Care Services In Action](https://yasi92.github.io/Home-Care-Services-Lilien/)
 
 This is the website for the Lilien Home Care Services in Hannover. 
-The idea to create this website is to improve the existing website in wordpress, however, this version was not inspired by the old version in any way but in terms of content and site material.          
+The idea to create this website is to improve the existing website in wordpress, however, this version was not inspired by the old version in any way but in terms of content and site material.                   
 My goal to create this website is twofold, educational and commercial, and I tried to meet most expectations in both aspects.
 
 ## UX
@@ -63,11 +63,14 @@ Lives in Hanover and in needs of home care services.
 ### Wireframe Mockups:                              
                           
 Desktop:                  
-[Desktop wireframes PDF](Readme-assets/wireframes/Desktop-lilien.pdf)           
+[Desktop wireframes PDF](Readme-assets/wireframes/Desktop-lilien.pdf)        
+
 iPad:             
-[iPad wireframes PDF](Readme-assets/wireframes/ipad-lilien.pdf)                
+[iPad wireframes PDF](Readme-assets/wireframes/ipad-lilien.pdf)               
+
 Mobile:            
-[Mobile wireframes PDF](Readme-assets/wireframes/mobile-lilien.pdf)                  
+[Mobile wireframes PDF](Readme-assets/wireframes/mobile-lilien.pdf)           
+
 
 
 1. Desktop
@@ -220,29 +223,73 @@ Mobile:
 ### Frameworks, Libraries, CDN's, resources:
 
 
-1. [Bootstrapv4.5.3](https://getbootstrap.com/) 
-2. [Balsamiq](https://balsamiq.com/wireframes/)
-3. [GitHub](https://github.com/)
-4. [Git](https://git-scm.com/)
-5. [FontAwesome](https://fontawesome.com/start)
-6. [Google Fonts](https://fonts.google.com/)
-7. [Chrome Developer Tools:](https://developer.chrome.com/docs/devtools/)
-8. [Ami Responsive](http://ami.responsivedesign.is/)
-9. [HTMLValidationService](https://validator.w3.org/)
-10. [CSSValidationService](https://validator.w3.org/)
-11. [Coolors.co](https://coolors.co/eae8ed-bcdadd-b3d1bb-62a9af-af70c2-500966)
-12. [Unicorn Revealer Extention](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
-13. [GreenSock](https://greensock.com/gsap/)
-14. [Java Tutor](http://pythontutor.com/java.html#mode=edit)
-15. [w3schools](https://www.w3schools/)
-16. [jQuery](https://jquery.com/)
-17. [RapidAPI](https://rapidapi.com/collection/list-of-free-apis)
-18. [EmailJS](https://www.emailjs.com/)
-19. [Google maps API](https://console.cloud.google.com/google/maps-apis/)
-20. [Pexels](https://www.pexels.com/nl-nl/)
-21. [Pinterest](https://nl.pinterest.com/)
-22. [favicon.io](https://favicon.io/)
-23. []()
+1. [Bootstrapv4.5.3](https://getbootstrap.com/)       
+- This was used for the main layout of the 3 pages and modal gallery.   
+
+2. [Balsamiq](https://balsamiq.com/wireframes/)         
+- This was used to create mockups during the design process.      
+
+3. [GitHub](https://github.com/)         
+- Github was used as a remote repository and to deploy the website.      
+
+4. [Git](https://git-scm.com/)         
+- Git was used as version control to keep track of files and push them to the remote repository.      
+
+5. [FontAwesome](https://fontawesome.com/start)         
+- Font Awesome was used throughout the website to add icons.      
+
+6. [Google Fonts](https://fonts.google.com/)         
+- Google fonts were used to import the font styles in the website.      
+
+7. [Chrome Developer Tools:](https://developer.chrome.com/docs/devtools/)        
+- This was used for debugging and for checking the responsiveness of the website.      
+
+8. [Ami Responsive](http://ami.responsivedesign.is/)         
+- This was used to test the website responsiveness.      
+
+9. [HTMLValidationService](https://validator.w3.org/)     
+- This was used to check the markup validity of the web documents.      
+
+10. [CSSValidationService](https://validator.w3.org/)      
+- This was used to check the markup validity of the web documents.      
+
+11. [Coolors.co](https://coolors.co/eae8ed-bcdadd-b3d1bb-62a9af-af70c2-500966)     
+- This was used to choose the color theme used in the website.      
+
+12. [Unicorn Revealer Extention](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)        
+- This is a developer-friendly tool to locate the overflows and was used throughout the process.      
+
+13. [GreenSock](https://greensock.com/gsap/)       
+- This Javascript library was used to create animations throughout the website.      
+
+14. [Java Tutor](http://pythontutor.com/java.html#mode=edit)          
+- This was used to debugg the javascript codes.      
+
+15. [w3schools](https://www.w3schools/)         
+- This was used for documentation for most troubles and errors.      
+
+16. [jQuery](https://jquery.com/)      
+- This was used as Javascript library to write less Javascript codes.      
+
+17. [RapidAPI](https://rapidapi.com/collection/list-of-free-apis)       
+- This was used for calling APIs.      
+
+18. [EmailJS](https://www.emailjs.com/)        
+- This was used to send direcct emails from the website.      
+
+19. [Google maps API](https://console.cloud.google.com/google/maps-apis/)           
+- Google map API was used to embed the google map into the website.      
+
+20. [Pexels](https://www.pexels.com/nl-nl/)            
+- This was used to download images for the website.      
+
+21. [Pinterest](https://nl.pinterest.com/)        
+- This was used to download images for the website.      
+
+22. [favicon.io](https://favicon.io/)       
+- This was used to create and insert a favicon.      
+
+
 
 
 ## Testing

@@ -1,6 +1,7 @@
 $('#corona-news').hide();
 $('#stats-data').hide();
 $('#apply').hide();
+$('#bye').hide();
 
 // it opens the corona news' columns on click 
 $('#corona-btn').click(function (event) {
@@ -19,10 +20,20 @@ $('#stats-btn').click(function (event) {
 
 });
 
+// it toggles the form and makes it visible - toggles the color of the button and hide the "no" button
 $('#yes').click(function (event) {
     $('#apply').fadeToggle('slow');
     $('#yes').toggleClass('submit-contact-form-btn').toggleClass('green-btn');
     $('#no').toggle();
+});
+
+
+// it toggles the text and makes it visible - toggles the color of the button and hide the "yes" button
+$('#no').click(function (event) {
+    $('#bye').fadeToggle('slow').css('backgroundColor', "#BCDADD");
+    $('#no').toggleClass('submit-contact-form-btn').toggleClass('green-btn');
+    $('#yes').toggle();
+
 });
 
 

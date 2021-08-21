@@ -93,6 +93,11 @@ a {
   font-size: 1.2rem;
 }
 
+.big-txt {
+  font-size: 3rem;
+  color: #500966;
+}
+
 a:hover {
   text-decoration: none;
   color: #1a1a16;
@@ -171,7 +176,7 @@ a:hover {
 
 /* /////////////////////////////////// Backgrounds///////////////////////////////////  */
 .light-bg {
-  box-shadow: 1px 1px 8px #ffffff;
+  box-shadow: 0px 0px 5px #ffffff;
   background-color: #fff;
 }
 

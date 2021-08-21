@@ -1,13 +1,13 @@
-
 $('#corona-news').hide();
 $('#stats-data').hide();
+$('#apply').hide();
 
 // it opens the corona news' columns on click 
 $('#corona-btn').click(function (event) {
     $('#corona-news').slideToggle('slow');
 
-    event.target.textContent == 'Show More' ? event.target.textContent = 'Show Less' : event.target.textContent = 'Show More'; 
-     
+    event.target.textContent == 'Show More' ? event.target.textContent = 'Show Less' : event.target.textContent = 'Show More';
+
 });
 
 
@@ -15,12 +15,18 @@ $('#corona-btn').click(function (event) {
 $('#stats-btn').click(function (event) {
     $('#stats-data').slideToggle('slow');
 
-    event.target.textContent == 'Show More' ? event.target.textContent = 'Show Less' : event.target.textContent = 'Show More'; 
+    event.target.textContent == 'Show More' ? event.target.textContent = 'Show Less' : event.target.textContent = 'Show More';
 
 });
 
+$('#yes').click(function (event) {
+    $('#apply').fadeToggle('slow');
+    $('#yes').toggleClass('submit-contact-form-btn').toggleClass('green-btn');
+    $('#no').toggle();
+});
 
-  
+
+
 // it flips the cards on job.html on click
 $('.job-int-btn').click(function (event) {
     let card = event.target.parentElement.parentElement.parentElement;
@@ -56,7 +62,7 @@ $(".services-link").on('click', function (event) {
     $(text).fadeIn('slow');
     $(clToggle).toggleClass('col-lg-9');
     $(shortDescription).hide();
- 
+
 });
 
 
@@ -102,8 +108,3 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-
-
-
-
-

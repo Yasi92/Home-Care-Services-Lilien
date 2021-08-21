@@ -218,7 +218,8 @@ Mobile:
     * This feature is especially useful on mobile devices, as it prevents the user from having to scroll all the way back to the top of the page.
 
 
-
+### Yet to be implemented
+   * The website will be translated to German using jQuery and json files, as the company is in Hanover Germany and the website is written in English only for educational purposes.
 
 
 ## Technologies Used

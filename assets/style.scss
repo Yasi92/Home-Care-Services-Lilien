@@ -11,7 +11,6 @@ html {
 }
 
 body {
-
   font-family: 'Nunito Sans', sans-serif;
   background-color: #EAE8ED;
 }
@@ -125,11 +124,6 @@ a:hover {
   text-align: left;
 }
 
-.heading-border {
-  border: 1px solid #bcdadd;
-  background-color: #bcdadd;
-  box-shadow: 0px 0px 3px #bcdadd;
-}
 
 #contact-links {
   font-size: calc(.9rem + 0.4vw);
@@ -184,23 +178,15 @@ a:hover {
 
 /* /////////////////////////////////// Backgrounds///////////////////////////////////  */
 
-.join-team-bg {
-  background-color: whitesmoke;
+.light-bg{
+  box-shadow: 1px 1px 8px #ffffff;
+  background-color: #fff;
 }
 
 .box-shadow {
   box-shadow: 0px 0px 6px #92659271;
 }
 
-.team-box {
-  background-color: rgba(255, 255, 255, 0.6);
-  box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.6);
-}
-
-.contact-info {
-  background-color: rgba(255, 255, 255, 0.6);
-  box-shadow: 1px 1px 8px #ffffff;
-}
 
 .news-col {
   background-color: #AF70C2;
@@ -223,6 +209,18 @@ a:hover {
 
 .card-footer{
   background-color: #fff;
+}
+
+
+.heading-border {
+  border: 1px solid #bcdadd;
+  background-color: #bcdadd;
+  box-shadow: 0px 0px 3px #bcdadd;
+}
+
+.stats-bg{
+  background-color: #AF70C2;
+  padding: 1.5rem;
 }
 /* /////////////////////////////////// containers///////////////////////////////////  */
 
@@ -254,11 +252,6 @@ a:hover {
 
 }
 
-.welcome-txt{
-  background-color: rgba(255, 255, 255, 0.6);
-  box-shadow: 1px 1px 8px #ffffff;
-  
-}
 
 #map {
   height: 23em;
@@ -279,10 +272,6 @@ a:hover {
 }
 
 
-.stats-bg{
-  background-color: #AF70C2;
-  padding: 1.5rem;
-}
 /* /////////////////////////////////// flip cards///////////////////////////////////  */
 
 /* the method has been learned from this article "https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/" */
@@ -349,8 +338,7 @@ a:hover {
 .cards {
   grid-gap: 1.5rem;
   grid-auto-rows: 1fr;
-  padding: 0 1.5rem;
-  background: whitesmoke;
+  padding: 0 1.5rem; 
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 

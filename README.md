@@ -60,29 +60,28 @@ Lives in Hanover and in needs of home care services.
 
 
 
-### Wireframe Mockups:
-[Wireframes.pdf]
+### Wireframe Mockups:                              
+                          
+Desktop:                  
+[Desktop wireframes PDF](Readme-assets/wireframes/Desktop-lilien.pdf)           
+iPad:             
+[iPad wireframes PDF](Readme-assets/wireframes/ipad-lilien.pdf)                
+Mobile:            
+[Mobile wireframes PDF](Readme-assets/wireframes/mobile-lilien.pdf)                  
+
 
 1. Desktop
-![Desktop Mockups]
-- [Home.pdf]
-- [services.pdf]
-- [job.pdf]
-- [contact.pdf]
+![Desktop Mockups](Readme-assets/wireframes/desktop-home.png)
+
 
 2. Ipad
-![Ipad Mockups] 
-- [Home.pdf]
-- [services.pdf]
-- [job.pdf]
-- [contact.pdf]
+![Ipad Mockups](Readme-assets/wireframes/ipad.png)
+
  
+
 3. Mobile 
-![Mobile Mockups]
-- [Home.pdf]
-- [services.pdf]
-- [job.pdf]
-- [contact.pdf]
+![Mobile Mockups](Readme-assets/wireframes/Mobile.png)
+
 
 
 ## Features-
@@ -294,20 +293,22 @@ This is used to make changes to the project code.
 
 
 ## Content
+                   
+- The content of services description has been taken from this link, only for educational purposes.      
+ [Visiting Angels](https://www.visitingangels.com/)         
+- The content of welcome text, team information, job description and contact info has been taken from the current website of Lilien Home Care Website.     
+ [pflegedienst-lilien](https://pflegedienst-lilien.de/)           
+- The content of corona news has been taken from this API.          
+[Coronavirus Smartable](https://rapidapi.com/SmartableAI/api/coronavirus-smartable/)         
+- The covid-19 statistics' data In Germany has been taken from this API.              
+ [COVID-19 data](https://rapidapi.com/Gramzivi/api/covid-19-data/)             
+- The embeded map on the website is created by Google Map APIs.             
+ [Google Map API](https://console.cloud.google.com/google/maps-apis/)             
 
-- [Visiting Angels](https://www.visitingangels.com/) -    
-The content of services description has been taken from this link, only for educational purposes.
-- [pflegedienst-lilien](https://pflegedienst-lilien.de/)  -    
-The content of welcome text, team information, job description and contact info has been taken from the current website of Lilien Home Care Website.
-- [Coronavirus Smartable](https://rapidapi.com/SmartableAI/api/coronavirus-smartable/)    -
-The content of corona news has been taken from this API
-- [COVID-19 data](https://rapidapi.com/Gramzivi/api/covid-19-data/)    - 
- The covid-19 statistics' data In Germany has been taken from this API
- - [Google Map API](https://console.cloud.google.com/google/maps-apis/)   - 
- The embeded map on the website is created by Google Map APIs
 
 ## Media
-- [The photots throughout the website were taken from](https://www.pexels.com/)
+ The photots throughout the website were taken from:
+- [Pexels](https://www.pexels.com/)  
 - [Pinterest](https://nl.pinterest.com/)
 - [pflegedienst-lilien](https://pflegedienst-lilien.de/)
 

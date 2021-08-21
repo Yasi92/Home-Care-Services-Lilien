@@ -1,7 +1,7 @@
 # Buno Coffee Website - Testing in detils
 
 [Lilien Home Care Services In Action](https://yasi92.github.io/Home-Care-Services-Lilien/)          
-[Main README.md file](/README.md)
+[Main README.md file](README.md)
 
 ## Validation
 
@@ -12,14 +12,11 @@
 ![Lighthouse result]()  Was used to check the overall performance of the website and as a way to improve the website performance.
                                   
 
-
 | Bugs | Solutions |            
 | ----------- | ----------- |
 | When testing the published website, noticed that the "scroll-back-to-top" button does not appear after scrolling down the page and its position behaves as if it had an absolute position. The button was not showing on the viewport but it was placed at the bottom of the page instead. | I have fixed this by removing the perspective property from the body element.|
 | When testing the HTML files in the w3 validator, I received errors saying that buttons must not appear as a descendant of 'a' elements or vice versa.| I have fixed this by removing the nested structure and instead of giving a button class from bootstrap to an 'a' element.|
 | When Viewing the job.html on iPhone devices, noticed that the cards would not flip on click but this was not an issue on other devices. | I have fixed this by adding -webkit-... -o-... and -moz-... to the relevant properties for more compatibility.|
-
-
 
 ## Unfixed Bugs
 
@@ -28,8 +25,6 @@
 ## Known issues
 - In the job offer page "job.html", there was an issue with flipping cards on mobile view. to fix this issue, I would have to add perspective to the body element and that would have caused another issue with the back-to-top button as it would disable the fixed position of the button and instead of the viewport, it would place the button all the way down the page.
 To fix this, I gave a class to the body element of that page and set the perspective property using a media query, but this left the back-to-top (sometimes) disabled on the job offer page on a mobile view which does not cause a serious issue as the page content is not long.
-
-
 
 
 ## Client stories testing:
@@ -42,7 +37,7 @@ The potential common paths through the website:
               
 
 Each of these possible paths is achievable by simply navigating through the navigation bar and a menu link shortcut on the "Home" page.
-### Testing client stories from UX section of [README.md](/README.md)
+### Testing client stories from UX section of [README.md](README.md)
 
 1. As a new visitor, I would like to get some general information and an introduction to the business.
    - The general information about the company is provided on the Home page.
@@ -56,15 +51,6 @@ Each of these possible paths is achievable by simply navigating through the navi
 5. As a returning visitor, I want to get directions to the location.
    - The visitor scrolls down the home page or nagigates to the contact page and, get directions from the embeded google map.
    
-
-
-
-
-
-
-
-     
-
 
 
 ## Manual (logical) testing of all elements and functionality on every page.      
@@ -159,10 +145,6 @@ Each of these possible paths is achievable by simply navigating through the navi
 
 
 
-
-
-
-
 ###  Sticky back-to-top button
  - Verify that the button shows up in the right position on every page.
  - Click on the button to confirm that the button works.
@@ -171,9 +153,6 @@ Each of these possible paths is achievable by simply navigating through the navi
 ### Footer
  - Confirm that footer code is identical on all HTML pages.
 
-
-
- 
 
 ## Further Testing
  - I have tested the website on the following internet browsers and no serious issue was found:

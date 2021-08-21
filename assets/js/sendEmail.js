@@ -1,6 +1,6 @@
 // The method for sending forms is learned from code institute tutorials.
 ///// Sending job forms from job.html
-
+$('.alert').hide();
 function sendMail(contactForm) {
 
     emailjs.send("service_xji66q5", "template_h8j6n8q", {
@@ -23,11 +23,13 @@ function sendMail(contactForm) {
 
 
 
-    // the modal opens up on submit form
-    function modalFunc() {
-        $('#myModalJob').modal('show')
-    };
-    modalFunc();
+    // the alert opens up on submit form
+
+    function alertOpen(){
+        $('.alert').toggle();
+    }
+
+    alertOpen();
 
 
     // empty the inputs after submitting the form
@@ -70,12 +72,13 @@ function sendContactForm(contactForm) {
             }
         )
 
-    // the modal opens up on submit form
-    function modalFunc() {
+    // // the alert opens up on submit form
 
-        $('#myModal').modal('show')
+    function alertOpen(){
+        $('.alert').toggle();
     }
-    modalFunc();
+
+    alertOpen();
 
     // empty the inputs after submitting the form
     contactForm.name.value = "";

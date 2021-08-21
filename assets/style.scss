@@ -84,7 +84,7 @@ h4 {
   line-height: 1.8rem;
 }
 
-h6{
+h6 {
   font-size: 1.2rem;
 }
 
@@ -98,9 +98,9 @@ a {
 }
 
 
-.big-txt{
-font-size: 3rem;
-color: #500966;
+.big-txt {
+  font-size: 3rem;
+  color: #500966;
 }
 
 
@@ -186,7 +186,7 @@ a:hover {
 
 /* /////////////////////////////////// Backgrounds///////////////////////////////////  */
 
-.light-bg{
+.light-bg {
   box-shadow: 0px 0px 5px #ffffff;
   background-color: #fff;
 }
@@ -215,7 +215,7 @@ a:hover {
 }
 
 
-.card-footer{
+.card-footer {
   background-color: #fff;
 }
 
@@ -226,10 +226,17 @@ a:hover {
   box-shadow: 0px 0px 3px #bcdadd;
 }
 
-.stats-bg{
+.stats-bg {
   background-color: #AF70C2;
   padding: 1.5rem;
 }
+
+.alert-success{
+  background-color: #B3D1BB;
+  border: none;
+  color: #000;
+}
+
 /* /////////////////////////////////// containers///////////////////////////////////  */
 
 .container {
@@ -271,12 +278,16 @@ a:hover {
 }
 
 
-.list-group{
+.list-group {
   width: 100%;
 }
 
 .card {
   border: none;
+}
+
+.alert{
+  margin-bottom: 2rem;
 }
 
 
@@ -330,7 +341,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   -o-backface-visibility: hidden;
   min-width: 100%;
-  background-color:#fff;
+  background-color: #fff;
 }
 
 .card-back {
@@ -346,7 +357,7 @@ a:hover {
 .cards {
   grid-gap: 1.5rem;
   grid-auto-rows: 1fr;
-  padding: 0 1.5rem; 
+  padding: 0 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
@@ -399,7 +410,7 @@ a:hover {
 /* /////////////////////////////////// buttons ///////////////////////////////////  */
 
 #myBtn {
-  
+
   display: none;
   position: fixed;
   bottom: 3.5em;
@@ -413,7 +424,7 @@ a:hover {
   cursor: pointer;
   padding: 0.5em;
   border-radius: 30%;
-  
+
 }
 
 #myBtn:hover {
@@ -458,17 +469,17 @@ a:hover {
 .green-btn:focus {
   background-color: #80B38D;
   border: none;
-  color: black;
+  color: #fff;
 }
 
-.submit-contact-form-btn {
+.purple-btn {
   background-color: #dda7ee;
-  color: #fff;
+  color: #000;
   border: none;
 }
 
-.submit-contact-form-btn:hover,
-.submit-contact-form-btn:focus {
+.purple-btn:hover,
+.purple-btn:focus {
   background-color: #AF70C2;
   color: #fff;
   border: none;
@@ -488,22 +499,6 @@ a:hover {
   background-color: rgba(75, 56, 97, 0.7);
   padding: 30px;
   border-radius: .25rem;
-}
-
-
-.modal-header {
-  background-color: #c38be2;
-}
-
-.modal-2 {
-  position: fixed;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  transform: translate(-50%, -50%);
-  min-width: 500px;
-  z-index: 1050;
 }
 
 /* /////////////////////////////////// footer ///////////////////////////////////  */
@@ -536,7 +531,7 @@ footer {
     position: static;
   }
 
-  .services-link{
+  .services-link {
     margin-bottom: 1rem;
   }
 
@@ -552,7 +547,8 @@ footer {
     text-align: center;
   }
 
-  #contact-links, #contact-links h5{
+  #contact-links,
+  #contact-links h5 {
     text-align: center;
   }
 
@@ -562,13 +558,7 @@ footer {
     padding: 1rem;
   }
 
-  
-  .modal-2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 80%;
-  }
+
 
   .cards {
     display: block;
@@ -591,15 +581,15 @@ footer {
 
   body {
     max-width: 100vw;
- 
+
   }
 
-/* This rule has been set to fix the conflict between flipping cards on mobile view and displaying back-to-top button on scroll
+  /* This rule has been set to fix the conflict between flipping cards on mobile view and displaying back-to-top button on scroll
  If the perspective property was given to the body element, the back-to-top button would have not get the fixed position but the absolute position and, on the other hand if the perspective property was not given to 
  the body element, the cards would not flip on click on mobile view. */
 
 
-  .job-body{
+  .job-body {
     perspective: 40rem;
     -webkit-perspective: 40rem;
   }
@@ -619,11 +609,13 @@ footer {
     font-size: 1rem;
   }
 
-  .contact-info h3, .contact-info h5, .contact-info a {
+  .contact-info h3,
+  .contact-info h5,
+  .contact-info a {
     text-align: center;
   }
 
-  .list-group h5{
+  .list-group h5 {
     font-size: 1rem;
   }
 
@@ -641,9 +633,6 @@ footer {
     padding-bottom: 1rem;
   }
 
-  .modal-dialog {
-    margin: 0;
-  }
 
   #myBtn {
     bottom: 5em;
@@ -652,6 +641,3 @@ footer {
     font-size: 1em;
   }
 }
-
-
-

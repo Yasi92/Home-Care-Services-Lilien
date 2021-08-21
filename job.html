@@ -56,22 +56,7 @@
 			</div>
 		</nav>
 	</header>
-	<div class="modal-2 fade" id="myModalJob" tabindex="-1" role="dialog" aria-labelledby="myModalJob"
-		aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalCenterTitle">Thank you for applying</h5>
-				</div>
-				<div class="modal-body">
-					<p>We will respond to your message within 4 working days.</p>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn green-btn" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
+
 
 	<section>
 		<div class="container">
@@ -147,8 +132,8 @@
 			<div class="row pb-5 justify-content-center">
 				<div class="light-bg col-12 col-lg-9 text-center">
 					<h2 class="text-center py-3 py-md-4 px-3">Are You interested in joining our team?</h2>
-					<div class="btn submit-contact-form-btn mb-3 mx-1" id="yes">Yes, Lets get started</div>
-					<div class="btn submit-contact-form-btn mb-3 mx-1" id="no">No Thanks</div>
+					<div class="btn purple-btn mb-3 mx-1" id="yes">Yes, Lets get started</div>
+					<div class="btn purple-btn mb-3 mx-1" id="no">No Thanks</div>
 				</div>
 
 
@@ -156,6 +141,10 @@
 				<div class="cv-bg py-4 col-lg-9 col-12" id="apply">
 					<div class="heading-form text-center">
 						<h3 class="text-center pb-4">Apply Here</h3>
+						<div class="alert alert-success" role="alert">
+							<h4 class="alert-heading">Thank you for applying!</h4>
+							<p class="text-center">We will respond to your message within 4 working days.</p>
+						</div>
 					</div>
 					<div class="row">
 						<div class="col-12 col-lg-9 mx-auto">
@@ -167,9 +156,9 @@
 											id="first-name" required />
 									</div>
 									<div class="form-group col-md-6">
-										<label for="emailaddress">Last name</label>
+										<label for="last-name">Last name</label>
 										<input type="text" name="lastname" class="form-control" placeholder="Last name"
-											id="emailaddress" required />
+											id="last-name" required />
 									</div>
 								</div>
 								<div class="form-row">
@@ -216,14 +205,11 @@
 		</div>
 	</section>
 
-
 	<footer class="footer">
 		<div class="container text-center">
 			<span>&copy; Copyright 2021 OUTPATIENT NURSING SERVICES LILIEN</span>
 		</div>
 	</footer>
-
-
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"

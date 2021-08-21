@@ -23,7 +23,7 @@ $('#stats-btn').click(function (event) {
 // it toggles the form and makes it visible - toggles the color of the button and hide the "no" button
 $('#yes').click(function (event) {
     $('#apply').fadeToggle('slow');
-    $('#yes').toggleClass('submit-contact-form-btn').toggleClass('green-btn');
+    $('#yes').toggleClass('purple-btn').toggleClass('green-btn');
     $('#no').toggle();
 });
 
@@ -31,7 +31,7 @@ $('#yes').click(function (event) {
 // it toggles the text and makes it visible - toggles the color of the button and hide the "yes" button
 $('#no').click(function (event) {
     $('#bye').fadeToggle('slow').css('backgroundColor', "#BCDADD");
-    $('#no').toggleClass('submit-contact-form-btn').toggleClass('green-btn');
+    $('#no').toggleClass('purple-btn').toggleClass('green-btn');
     $('#yes').toggle();
 
 });

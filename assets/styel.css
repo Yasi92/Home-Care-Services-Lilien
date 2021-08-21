@@ -458,9 +458,6 @@ a:hover {
   border-radius: 0.25rem;
 }
 
-.modal-header {
-  background-color: #c38be2;
-}
 
 /* /////////////////////////////////// footer ///////////////////////////////////  */
 footer {
@@ -518,13 +515,8 @@ footer {
     padding: 1rem;
   }
 
-  .modal-1 {
-    min-width: 80%;
-  }
+  
 
-  .modal-2 {
-    min-width: 80%;
-  }
 
   .cards {
     display: block;
@@ -589,15 +581,7 @@ footer {
     padding-bottom: 1rem;
   }
 
-  .modal-sm {
-    position: absolute;
-    bottom: 20%;
-    left: 50%;
-  }
 
-  .modal-dialog {
-    margin: 0;
-  }
 
   #myBtn {
     bottom: 5em;
